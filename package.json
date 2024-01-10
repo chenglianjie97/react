@@ -9,6 +9,8 @@
     "start": "npm run dev"
   },
   "dependencies": {
+    "antd": "4.24.13",
+    "react-hook-form": "7.43.9",
     "umi": "^4.0.89"
   },
   "devDependencies": {

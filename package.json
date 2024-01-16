@@ -9,6 +9,7 @@
     "start": "npm run dev"
   },
   "dependencies": {
+    "@types/lodash-es": "^4.17.12",
     "antd": "4.24.13",
     "clsx": "^2.1.0",
     "lodash-es": "^4.17.21",

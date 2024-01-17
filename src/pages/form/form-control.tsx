@@ -1,6 +1,13 @@
-import { FormItemProps, Form as AntdForm } from "antd";
-import { set as lodashSet, template } from "lodash-es";
-import { Children, Fragment, ReactNode, cloneElement, isValidElement, useMemo } from "react";
+import { FormItemProps } from 'antd';
+import { set as lodashSet, template } from 'lodash-es';
+import {
+  Children,
+  Fragment,
+  ReactNode,
+  cloneElement,
+  isValidElement,
+  useMemo,
+} from 'react';
 import {
   Controller,
   ControllerFieldState,
@@ -9,24 +16,24 @@ import {
   FieldError,
   FieldPath,
   UseFormStateReturn,
-} from "react-hook-form";
-// import { Form } from "./form-grid";
+} from 'react-hook-form';
+import { Form } from './form-grid';
 
 export type FieldValues = Record<string, any>;
 
 export interface FormControlProps<
   TFieldValues extends FieldValues = FieldValues,
-  TName extends FieldPath<TFieldValues> = FieldPath<TFieldValues>
-> extends Omit<FormItemProps, "rules" | "name">,
-    Omit<ControllerProps<TFieldValues, TName>, "render"> {
-  render?: ControllerProps<TFieldValues, TName>["render"];
+  TName extends FieldPath<TFieldValues> = FieldPath<TFieldValues>,
+> extends Omit<FormItemProps, 'rules' | 'name'>,
+    Omit<ControllerProps<TFieldValues, TName>, 'render'> {
+  render?: ControllerProps<TFieldValues, TName>['render'];
   afterAddon?: ReactNode;
   beforeAddon?: ReactNode;
 }
 
 export function FormControl<
   TFieldValues extends FieldValues = FieldValues,
-  TName extends FieldPath<TFieldValues> = FieldPath<TFieldValues>
+  TName extends FieldPath<TFieldValues> = FieldPath<TFieldValues>,
 >(props: FormControlProps<TFieldValues, TName>) {
   const { name, control, defaultValue, rules, shouldUnregister } = props;
 
@@ -38,7 +45,14 @@ export function FormControl<
       rules={rules}
       shouldUnregister={shouldUnregister}
       render={({ field, fieldState, formState }) => {
-        return <InnerFormItem {...props} field={field} fieldState={fieldState} formState={formState}></InnerFormItem>;
+        return (
+          <InnerFormItem
+            {...props}
+            field={field}
+            fieldState={fieldState}
+            formState={formState}
+          ></InnerFormItem>
+        );
       }}
     />
   );
@@ -46,7 +60,7 @@ export function FormControl<
 
 export interface InnerFormItemProps<
   TFieldValues extends FieldValues = FieldValues,
-  TName extends FieldPath<TFieldValues> = FieldPath<TFieldValues>
+  TName extends FieldPath<TFieldValues> = FieldPath<TFieldValues>,
 > extends FormControlProps<TFieldValues, TName> {
   field: ControllerRenderProps<TFieldValues, TName>;
 
@@ -57,9 +71,19 @@ export interface InnerFormItemProps<
 
 export function InnerFormItem<
   TFieldValues extends FieldValues = FieldValues,
-  TName extends FieldPath<TFieldValues> = FieldPath<TFieldValues>
+  TName extends FieldPath<TFieldValues> = FieldPath<TFieldValues>,
 >(props: InnerFormItemProps<TFieldValues, TName>) {
-  const { name, render, beforeAddon, afterAddon, field, fieldState, formState, rules, ...restProps } = props;
+  const {
+    name,
+    render,
+    beforeAddon,
+    afterAddon,
+    field,
+    fieldState,
+    formState,
+    rules,
+    ...restProps
+  } = props;
 
   const children = useMemo(() => {
     let child = render?.({ field, fieldState, formState });
@@ -72,7 +96,7 @@ export function InnerFormItem<
         onlyChild = fragmentChild;
       }
 
-      const valuePropName = restProps.valuePropName ?? "value";
+      const valuePropName = restProps.valuePropName ?? 'value';
 
       child = cloneElement(onlyChild, {
         ...field,
@@ -88,8 +112,12 @@ export function InnerFormItem<
       } as any);
     }
 
-    const beforeChild = beforeAddon && <div className="flex-none">{beforeAddon}</div>;
-    const afterChild = afterAddon && <div className="flex-none">{afterAddon}</div>;
+    const beforeChild = beforeAddon && (
+      <div className="flex-none">{beforeAddon}</div>
+    );
+    const afterChild = afterAddon && (
+      <div className="flex-none">{afterAddon}</div>
+    );
 
     if (beforeChild || afterChild) {
       return (
@@ -102,24 +130,43 @@ export function InnerFormItem<
     }
 
     return child;
-  }, [afterAddon, beforeAddon, field, fieldState, formState, props.children, restProps.valuePropName, render]);
+  }, [
+    afterAddon,
+    beforeAddon,
+    field,
+    fieldState,
+    formState,
+    props.children,
+    restProps.valuePropName,
+    render,
+  ]);
 
-  const validateStatus = useMemo(() => getValidateStatus(formState, fieldState), [formState, fieldState]);
+  const validateStatus = useMemo(
+    () => getValidateStatus(formState, fieldState),
+    [formState, fieldState],
+  );
 
   const help = useMemo(() => {
-    return validateStatus === "error" ? getErrorTip(name, restProps.label, fieldState.error) : void 0;
+    return validateStatus === 'error'
+      ? getErrorTip(name, restProps.label, fieldState.error)
+      : void 0;
   }, [validateStatus, name, restProps.label, fieldState.error]);
 
   return (
-    <AntdForm.Item status="error" validateStatus={validateStatus} help={help} {...restProps}>
+    <Form.Item
+      status="error"
+      validateStatus={validateStatus}
+      help={help}
+      {...restProps}
+    >
       {children}
-    </AntdForm.Item>
+    </Form.Item>
   );
 }
 
 export function shouldShowError<TFieldValues extends FieldValues = FieldValues>(
   formState: UseFormStateReturn<TFieldValues>,
-  fieldState: ControllerFieldState
+  fieldState: ControllerFieldState,
 ) {
   const { isTouched, isDirty, invalid } = fieldState;
   const { isSubmitted } = formState;
@@ -127,16 +174,22 @@ export function shouldShowError<TFieldValues extends FieldValues = FieldValues>(
   return (isTouched || isDirty || isSubmitted) && invalid;
 }
 
-export function getValidateStatus<TFieldValues extends FieldValues = FieldValues>(
+export function getValidateStatus<
+  TFieldValues extends FieldValues = FieldValues,
+>(
   formState: UseFormStateReturn<TFieldValues>,
-  fieldState: ControllerFieldState
-): FormItemProps["validateStatus"] {
+  fieldState: ControllerFieldState,
+): FormItemProps['validateStatus'] {
   if (shouldShowError(formState, fieldState)) {
-    return "error";
+    return 'error';
   }
 }
 
-export function getErrorTip(name: string, label: ReactNode, error: FieldError | undefined) {
+export function getErrorTip(
+  name: string,
+  label: ReactNode,
+  error: FieldError | undefined,
+) {
   if (!error) {
     return undefined;
   }

@@ -1,14 +1,17 @@
 import { Menu } from "antd";
 import { InputGroup } from "./antd";
-import { FormDemo } from "./form-control/form";
+import { Form } from "./form/form-grid";
+import { Search } from "./search";
 import "antd/dist/antd.css";
 export default function HomePage() {
   return (
-    <div>
+    <div style={{ width: "100%" }}>
       <h2>组件</h2>
       <div>
         <InputGroup></InputGroup>
-        <FormDemo></FormDemo>
+      </div>
+      <div style={{ width: 1200, margin: "0 auto", border: "1px solid red" }}>
+        <Search></Search>
       </div>
     </div>
   );

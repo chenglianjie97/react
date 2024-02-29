@@ -9,11 +9,14 @@
     "start": "npm run dev"
   },
   "dependencies": {
+    "@lexical/react": "^0.13.1",
     "@tanstack/react-table": "^8.12.0",
     "@types/lodash-es": "^4.17.12",
     "antd": "4.24.13",
     "clsx": "^2.1.0",
     "jotai": "^2.6.4",
+    "lexical": "^0.13.1",
+    "lodash": "^4.17.21",
     "lodash-es": "^4.17.21",
     "rc-util": "^5.38.1",
     "react": "^18.2.0",

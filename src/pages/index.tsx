@@ -1,5 +1,6 @@
 import "antd/dist/antd.css";
 import { Example, Example2 } from "./jotai";
+import { RowSelectTable } from "./tanstack-table";
 export default function HomePage() {
   return (
     <div style={{ width: "100%", textAlign: "center" }}>
@@ -8,6 +9,7 @@ export default function HomePage() {
         {/* jotai 练习 */}
         {/* <Example></Example> */}
         <Example2></Example2>
+        <RowSelectTable></RowSelectTable>
       </div>
     </div>
   );

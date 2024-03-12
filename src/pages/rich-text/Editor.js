@@ -15,37 +15,35 @@ import ToolbarPlugin from "./plugins/ToolbarPlugin";
 import ListMaxIndentLevelPlugin from "./plugins/ListMaxIndentLevelPlugin";
 import OnChangeMarkdown from "./plugins/OnChangeMarkdown";
 
-const editorConfig = {
-  // 主题
-  theme: ExampleTheme,
-  // Handling of errors during update
-  onError(error) {
-    throw error;
-  },
-  // Any custom nodes go here
-  nodes: [
-    HeadingNode,
-    ListNode,
-    ListItemNode,
-    QuoteNode,
-    CodeNode,
-    CodeHighlightNode,
-    TableNode,
-    TableCellNode,
-    TableRowNode,
-    AutoLinkNode,
-    LinkNode,
-  ],
-};
-
 export default function Editor(props) {
+  const editorConfig = {
+    // 主题
+    theme: ExampleTheme,
+    // editorState: props.value,
+    onError(error) {
+      throw error;
+    },
+    nodes: [
+      HeadingNode,
+      ListNode,
+      ListItemNode,
+      QuoteNode,
+      CodeNode,
+      CodeHighlightNode,
+      TableNode,
+      TableCellNode,
+      TableRowNode,
+      AutoLinkNode,
+      LinkNode,
+    ],
+  };
   return (
     <LexicalComposer initialConfig={editorConfig}>
       <div className="editor-container">
         <ToolbarPlugin />
         <div className="editor-inner">
           <RichTextPlugin
-            initialEditorState={() => {
+            editorState={() => {
               let str = (props.value || "").replace(/\n\n<br>\n/g, "\n");
               console.log("str", str);
               // If we still have br tags, we're coming from Slate, apply

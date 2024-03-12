@@ -1,0 +1,5305 @@
+{
+    "bizGroupInfos": [
+      {
+        "code": "isMicroSupply",
+        "description": "微供商品",
+        "support": false
+      },
+      {
+        "code": "isConsignMarketOffer",
+        "description": "1688代销产品",
+        "support": true
+      },
+      {
+        "code": "hasLinkedToSupplier",
+        "description": "代发业务产品",
+        "support": false
+      },
+      {
+        "code": "isIntelligentOffer",
+        "description": "慧眼识货发布的商品",
+        "support": false
+      },
+      {
+        "code": "isTbDistributionOffer",
+        "description": "分销商品",
+        "support": true
+      }
+    ],
+    "productInfo": {
+      "attributes": [
+        {
+          "attributeID": 889,
+          "attributeName": "产地",
+          "isCustom": false,
+          "value": "浙江金华"
+        },
+        {
+          "attributeID": 678,
+          "attributeName": "货号",
+          "isCustom": false,
+          "value": "CH-05"
+        },
+        {
+          "attributeID": 22,
+          "attributeName": "材质",
+          "isCustom": false,
+          "value": "纸/纸板"
+        },
+        {
+          "attributeID": 896,
+          "attributeName": "包装层次",
+          "isCustom": false,
+          "value": "销售包装/终端包装"
+        },
+        {
+          "attributeID": 5353,
+          "attributeName": "包装型式",
+          "isCustom": false,
+          "value": "包装盒"
+        },
+        {
+          "attributeID": 8,
+          "attributeName": "用途",
+          "isCustom": false,
+          "value": "珠宝首饰包装盒"
+        },
+        {
+          "attributeID": 898,
+          "attributeName": "主要下游平台",
+          "isCustom": false,
+          "value": "亚马逊"
+        },
+        {
+          "attributeID": 899,
+          "attributeName": "主要销售地区",
+          "isCustom": false,
+          "value": "东南亚"
+        },
+        {
+          "attributeID": 900,
+          "attributeName": "是否跨境出口专供货源",
+          "isCustom": false,
+          "value": "是"
+        },
+        {
+          "attributeID": 901,
+          "attributeName": "误差",
+          "isCustom": false,
+          "value": "0.01"
+        },
+        {
+          "attributeID": 881,
+          "attributeName": "规格",
+          "isCustom": true,
+          "value": "6号6X6X1.7cm"
+        },
+        {
+          "attributeID": 881,
+          "attributeName": "规格",
+          "isCustom": true,
+          "value": "1号5X5X3.5cm"
+        },
+        {
+          "attributeID": 881,
+          "attributeName": "规格",
+          "isCustom": true,
+          "value": "2号7X9X3cm"
+        },
+        {
+          "attributeID": 881,
+          "attributeName": "规格",
+          "isCustom": true,
+          "value": "3号9X9X3cm"
+        },
+        {
+          "attributeID": 881,
+          "attributeName": "规格",
+          "isCustom": true,
+          "value": "4号10X10X3.5cm"
+        },
+        {
+          "attributeID": 881,
+          "attributeName": "规格",
+          "isCustom": true,
+          "value": "5号22X4.5X3cm"
+        },
+        {
+          "attributeID": 881,
+          "attributeName": "规格",
+          "isCustom": true,
+          "value": "9号9X9X1.7cm"
+        },
+        {
+          "attributeID": 881,
+          "attributeName": "规格",
+          "isCustom": true,
+          "value": "10号10X10X1.7cm"
+        },
+        {
+          "attributeID": 881,
+          "attributeName": "规格",
+          "isCustom": true,
+          "value": "7号7X9X1.7cm"
+        },
+        {
+          "attributeID": 881,
+          "attributeName": "规格",
+          "isCustom": true,
+          "value": "8号8X8X1.7cm"
+        },
+        {
+          "attributeID": 52,
+          "attributeName": "颜色",
+          "isCustom": true,
+          "value": "黑卡（抽拉丝带）"
+        },
+        {
+          "attributeID": 52,
+          "attributeName": "颜色",
+          "isCustom": true,
+          "value": "牛皮纸（抽拉丝带）"
+        },
+        {
+          "attributeID": 52,
+          "attributeName": "颜色",
+          "isCustom": true,
+          "value": "大理石（抽拉丝带）"
+        },
+        {
+          "attributeID": 52,
+          "attributeName": "颜色",
+          "isCustom": true,
+          "value": "深蓝（抽拉丝带）"
+        },
+        {
+          "attributeID": 52,
+          "attributeName": "颜色",
+          "isCustom": true,
+          "value": "大红（抽拉丝带）"
+        },
+        {
+          "attributeID": 52,
+          "attributeName": "颜色",
+          "isCustom": true,
+          "value": "珠光浅粉（抽拉丝带）"
+        },
+        {
+          "attributeID": 52,
+          "attributeName": "颜色",
+          "isCustom": true,
+          "value": "珠光天蓝（抽拉丝带）"
+        },
+        {
+          "attributeID": 52,
+          "attributeName": "颜色",
+          "isCustom": true,
+          "value": "珠光白（抽拉丝带）"
+        },
+        {
+          "attributeID": 52,
+          "attributeName": "颜色",
+          "isCustom": true,
+          "value": "粉红（抽拉丝带）"
+        },
+        {
+          "attributeID": 52,
+          "attributeName": "颜色",
+          "isCustom": true,
+          "value": "黄色（抽拉丝带）"
+        },
+        {
+          "attributeID": 52,
+          "attributeName": "颜色",
+          "isCustom": true,
+          "value": "橙色（抽拉丝带）"
+        },
+        {
+          "attributeID": 52,
+          "attributeName": "颜色",
+          "isCustom": true,
+          "value": "白牛皮（抽拉丝带）"
+        },
+        {
+          "attributeID": 52,
+          "attributeName": "颜色",
+          "isCustom": true,
+          "value": "珠光墨绿（抽拉丝带）"
+        },
+        {
+          "attributeID": 52,
+          "attributeName": "颜色",
+          "isCustom": true,
+          "value": "深紫（抽拉丝带）"
+        },
+        {
+          "attributeID": 52,
+          "attributeName": "颜色",
+          "isCustom": true,
+          "value": "浅灰色（抽拉丝带）"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光白（抽拉丝带）*1号5X5X3.5cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光白（抽拉丝带）*2号7X9X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光白（抽拉丝带）*3号9X9X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光白（抽拉丝带）*4号10X10X3.5cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光白（抽拉丝带）*5号22X4.5X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光白（抽拉丝带）*6号6X6X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光白（抽拉丝带）*7号7X9X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光白（抽拉丝带）*8号8X8X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光白（抽拉丝带）*9号9X9X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光白（抽拉丝带）*10号10X10X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "黑卡（抽拉丝带）*1号5X5X3.5cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "黑卡（抽拉丝带）*2号7X9X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "黑卡（抽拉丝带）*3号9X9X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "黑卡（抽拉丝带）*4号10X10X3.5cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "黑卡（抽拉丝带）*5号22X4.5X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "黑卡（抽拉丝带）*6号6X6X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "黑卡（抽拉丝带）*7号7X9X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "黑卡（抽拉丝带）*8号8X8X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "黑卡（抽拉丝带）*9号9X9X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "黑卡（抽拉丝带）*10号10X10X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "牛皮纸（抽拉丝带）*1号5X5X3.5cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "牛皮纸（抽拉丝带）*2号7X9X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "牛皮纸（抽拉丝带）*3号9X9X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "牛皮纸（抽拉丝带）*4号10X10X3.5cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "牛皮纸（抽拉丝带）*5号22X4.5X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "牛皮纸（抽拉丝带）*6号6X6X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "牛皮纸（抽拉丝带）*7号7X9X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "牛皮纸（抽拉丝带）*8号8X8X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "牛皮纸（抽拉丝带）*9号9X9X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "牛皮纸（抽拉丝带）*10号10X10X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "白牛皮（抽拉丝带）*1号5X5X3.5cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "白牛皮（抽拉丝带）*2号7X9X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "白牛皮（抽拉丝带）*3号9X9X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "白牛皮（抽拉丝带）*4号10X10X3.5cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "白牛皮（抽拉丝带）*5号22X4.5X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "白牛皮（抽拉丝带）*6号6X6X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "白牛皮（抽拉丝带）*7号7X9X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "白牛皮（抽拉丝带）*8号8X8X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "白牛皮（抽拉丝带）*9号9X9X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "白牛皮（抽拉丝带）*10号10X10X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "深蓝（抽拉丝带）*1号5X5X3.5cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "深蓝（抽拉丝带）*2号7X9X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "深蓝（抽拉丝带）*3号9X9X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "深蓝（抽拉丝带）*4号10X10X3.5cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "深蓝（抽拉丝带）*5号22X4.5X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "深蓝（抽拉丝带）*6号6X6X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "深蓝（抽拉丝带）*7号7X9X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "深蓝（抽拉丝带）*8号8X8X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "深蓝（抽拉丝带）*9号9X9X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "深蓝（抽拉丝带）*10号10X10X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "粉红（抽拉丝带）*1号5X5X3.5cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "粉红（抽拉丝带）*2号7X9X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "粉红（抽拉丝带）*3号9X9X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "粉红（抽拉丝带）*4号10X10X3.5cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "粉红（抽拉丝带）*5号22X4.5X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "粉红（抽拉丝带）*6号6X6X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "粉红（抽拉丝带）*7号7X9X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "粉红（抽拉丝带）*8号8X8X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "粉红（抽拉丝带）*9号9X9X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "粉红（抽拉丝带）*10号10X10X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "大红（抽拉丝带）*1号5X5X3.5cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "大红（抽拉丝带）*2号7X9X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "大红（抽拉丝带）*3号9X9X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "大红（抽拉丝带）*4号10X10X3.5cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "大红（抽拉丝带）*5号22X4.5X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "大红（抽拉丝带）*6号6X6X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "大红（抽拉丝带）*7号7X9X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "大红（抽拉丝带）*8号8X8X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "大红（抽拉丝带）*9号9X9X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "大红（抽拉丝带）*10号10X10X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光浅粉（抽拉丝带）*1号5X5X3.5cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光浅粉（抽拉丝带）*2号7X9X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光浅粉（抽拉丝带）*3号9X9X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光浅粉（抽拉丝带）*4号10X10X3.5cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光浅粉（抽拉丝带）*5号22X4.5X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光浅粉（抽拉丝带）*6号6X6X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光浅粉（抽拉丝带）*7号7X9X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光浅粉（抽拉丝带）*8号8X8X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光浅粉（抽拉丝带）*9号9X9X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光浅粉（抽拉丝带）*10号10X10X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光天蓝（抽拉丝带）*1号5X5X3.5cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光天蓝（抽拉丝带）*2号7X9X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光天蓝（抽拉丝带）*3号9X9X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光天蓝（抽拉丝带）*4号10X10X3.5cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光天蓝（抽拉丝带）*5号22X4.5X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光天蓝（抽拉丝带）*6号6X6X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光天蓝（抽拉丝带）*7号7X9X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光天蓝（抽拉丝带）*8号8X8X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光天蓝（抽拉丝带）*9号9X9X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光天蓝（抽拉丝带）*10号10X10X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光墨绿（抽拉丝带）*1号5X5X3.5cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光墨绿（抽拉丝带）*2号7X9X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光墨绿（抽拉丝带）*3号9X9X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光墨绿（抽拉丝带）*4号10X10X3.5cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光墨绿（抽拉丝带）*5号22X4.5X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光墨绿（抽拉丝带）*6号6X6X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光墨绿（抽拉丝带）*7号7X9X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光墨绿（抽拉丝带）*8号8X8X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光墨绿（抽拉丝带）*9号9X9X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "珠光墨绿（抽拉丝带）*10号10X10X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "浅灰色（抽拉丝带）*1号5X5X3.5cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "浅灰色（抽拉丝带）*2号7X9X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "浅灰色（抽拉丝带）*3号9X9X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "浅灰色（抽拉丝带）*4号10X10X3.5cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "浅灰色（抽拉丝带）*5号22X4.5X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "浅灰色（抽拉丝带）*6号6X6X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "浅灰色（抽拉丝带）*7号7X9X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "浅灰色（抽拉丝带）*8号8X8X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "浅灰色（抽拉丝带）*9号9X9X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "浅灰色（抽拉丝带）*10号10X10X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "黄色（抽拉丝带）*1号5X5X3.5cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "黄色（抽拉丝带）*2号7X9X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "黄色（抽拉丝带）*3号9X9X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "黄色（抽拉丝带）*4号10X10X3.5cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "黄色（抽拉丝带）*5号22X4.5X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "黄色（抽拉丝带）*6号6X6X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "黄色（抽拉丝带）*7号7X9X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "黄色（抽拉丝带）*8号8X8X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "黄色（抽拉丝带）*9号9X9X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "黄色（抽拉丝带）*10号10X10X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "橙色（抽拉丝带）*1号5X5X3.5cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "橙色（抽拉丝带）*2号7X9X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "橙色（抽拉丝带）*3号9X9X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "橙色（抽拉丝带）*4号10X10X3.5cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "橙色（抽拉丝带）*5号22X4.5X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "橙色（抽拉丝带）*6号6X6X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "橙色（抽拉丝带）*7号7X9X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "橙色（抽拉丝带）*8号8X8X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "橙色（抽拉丝带）*9号9X9X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "橙色（抽拉丝带）*10号10X10X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "深紫（抽拉丝带）*1号5X5X3.5cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "深紫（抽拉丝带）*2号7X9X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "深紫（抽拉丝带）*3号9X9X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "深紫（抽拉丝带）*4号10X10X3.5cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "深紫（抽拉丝带）*5号22X4.5X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "深紫（抽拉丝带）*6号6X6X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "深紫（抽拉丝带）*7号7X9X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "深紫（抽拉丝带）*8号8X8X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "深紫（抽拉丝带）*9号9X9X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "深紫（抽拉丝带）*10号10X10X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "大理石（抽拉丝带）*1号5X5X3.5cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "大理石（抽拉丝带）*2号7X9X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "大理石（抽拉丝带）*3号9X9X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "大理石（抽拉丝带）*4号10X10X3.5cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "大理石（抽拉丝带）*5号22X4.5X3cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "大理石（抽拉丝带）*6号6X6X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "大理石（抽拉丝带）*7号7X9X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "大理石（抽拉丝带）*8号8X8X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "大理石（抽拉丝带）*9号9X9X1.7cm"
+        },
+        {
+          "attributeID": 1236,
+          "attributeName": "规格型号",
+          "isCustom": false,
+          "value": "大理石（抽拉丝带）*10号10X10X1.7cm"
+        },
+        {
+          "attributeID": 100017662,
+          "attributeName": "专用包装",
+          "isCustom": false,
+          "value": "饰品包装"
+        },
+        {
+          "attributeID": 244,
+          "attributeName": "风格",
+          "isCustom": false,
+          "value": "商务"
+        },
+        {
+          "attributeID": 894,
+          "attributeName": "工艺",
+          "isCustom": false,
+          "value": "模切"
+        }
+      ],
+      "bizType": 1,
+      "categoryID": 3168800006776,
+      "categoryName": "首饰包装",
+      "createTime": "20191023160536000+0800",
+      "crossBorderOffer": true,
+      "description": "<div id=\"offer-template-0\"></div><p><img alt=\"gmaQif+jytSN/QKdsoY9ePd7DFOK+WMqUcCz\" src=\"https://cbu01.alicdn.com/img/ibank/O1CN0178xd481qOBKIVpRZm_!!4073245485-0-cib.jpg?__r__=1702017540086\" alt=\"undefined\"/><br class=\"img-brk\"/><img src=\"https://cbu01.alicdn.com/img/ibank/O1CN013pVBa51qOBKOERerT_!!4073245485-0-cib.jpg?__r__=1702017540086\" alt=\"undefined\"/><br class=\"img-brk\"/><img src=\"https://cbu01.alicdn.com/img/ibank/O1CN01qBY6bH1qOBKIQnTQM_!!4073245485-0-cib.jpg?__r__=1702017540086\" alt=\"undefined\"/><br class=\"img-brk\"/><img src=\"https://cbu01.alicdn.com/img/ibank/O1CN01c3G1571qOBKISu3Ry_!!4073245485-0-cib.jpg?__r__=1702017540086\" alt=\"undefined\"/><br class=\"img-brk\"/><img src=\"https://cbu01.alicdn.com/img/ibank/O1CN01CUNDe71qOBKOEQaMQ_!!4073245485-0-cib.jpg?__r__=1702017540086\" alt=\"undefined\"/><br class=\"img-brk\"/><img src=\"https://cbu01.alicdn.com/img/ibank/O1CN01Ig3Mlv1qOBKAJjUmz_!!4073245485-0-cib.jpg?__r__=1702017540086\" alt=\"undefined\"/><br class=\"img-brk\"/><img src=\"https://cbu01.alicdn.com/img/ibank/O1CN01SzDJmx1qOBKGWkkP6_!!4073245485-0-cib.jpg?__r__=1702017540086\" alt=\"undefined\"/><br class=\"img-brk\"/><img src=\"https://cbu01.alicdn.com/img/ibank/O1CN0135MnS91qOBKJQjdgZ_!!4073245485-0-cib.jpg?__r__=1702017540086\" alt=\"undefined\"/><br class=\"img-brk\"/><img src=\"https://cbu01.alicdn.com/img/ibank/O1CN01pOVPwd1qOBKLIlAXm_!!4073245485-0-cib.jpg?__r__=1702017540087\" alt=\"undefined\"/><br class=\"img-brk\"/><img src=\"https://cbu01.alicdn.com/img/ibank/O1CN01F94gp01qOBKNSfQ8h_!!4073245485-0-cib.jpg?__r__=1702017540087\" alt=\"undefined\"/><br class=\"img-brk\"/><img src=\"https://cbu01.alicdn.com/img/ibank/O1CN01l9ouBN1qOBKMdbQOk_!!4073245485-0-cib.jpg?__r__=1702017558501\" alt=\"undefined\"/><br class=\"img-brk\"/><img src=\"https://cbu01.alicdn.com/img/ibank/O1CN010kzgoi1qOBKIVr3Ti_!!4073245485-0-cib.jpg?__r__=1702017558501\" alt=\"undefined\"/><br class=\"img-brk\"/><img src=\"https://cbu01.alicdn.com/img/ibank/O1CN01Vwz83X1qOBKIStilw_!!4073245485-0-cib.jpg?__r__=1702017558501\" alt=\"undefined\"/><br class=\"img-brk\"/><img src=\"https://cbu01.alicdn.com/img/ibank/O1CN01Ma5A351qOBKOESCFg_!!4073245485-0-cib.jpg?__r__=1702017558501\" alt=\"undefined\"/><br class=\"img-brk\"/><img src=\"https://cbu01.alicdn.com/img/ibank/O1CN01hM4CrU1qOBKJQidPC_!!4073245485-0-cib.jpg?__r__=1702017558501\" alt=\"undefined\"/><br class=\"img-brk\"/><img src=\"https://cbu01.alicdn.com/img/ibank/O1CN01a8fxN81qOBKMJv3Fn_!!4073245485-0-cib.jpg?__r__=1702017558501\" alt=\"undefined\"/><br class=\"img-brk\"/><img src=\"https://cbu01.alicdn.com/img/ibank/O1CN01q5RmMQ1qOBKJQxCDE_!!4073245485-0-cib.jpg?__r__=1702017558501\" alt=\"undefined\"/><br class=\"img-brk\"/><img src=\"https://cbu01.alicdn.com/img/ibank/O1CN01BrGxTu1qOBKMJv7PV_!!4073245485-0-cib.jpg?__r__=1702017558501\" alt=\"undefined\"/><br class=\"img-brk\"/><img src=\"https://cbu01.alicdn.com/img/ibank/O1CN011nDWG71qOBKKVgIA5_!!4073245485-0-cib.jpg?__r__=1702017558501\" alt=\"undefined\"/><br class=\"img-brk\"/><img src=\"https://cbu01.alicdn.com/img/ibank/O1CN01zQaKoN1qOBKG1xZip_!!4073245485-0-cib.jpg?__r__=1702017575955\" alt=\"undefined\"/><br class=\"img-brk\"/><img src=\"https://cbu01.alicdn.com/img/ibank/O1CN01z5qFMu1qOBKIQqd2b_!!4073245485-0-cib.jpg?__r__=1702017575955\" alt=\"undefined\"/><br class=\"img-brk\"/><img src=\"https://cbu01.alicdn.com/img/ibank/O1CN01pLFyZL1qOBKGWpiHr_!!4073245485-0-cib.jpg?__r__=1702017575955\" alt=\"undefined\"/><br class=\"img-brk\"/><img src=\"https://cbu01.alicdn.com/img/ibank/O1CN01NWjVK41qOBKISyYFb_!!4073245485-0-cib.jpg?__r__=1702017575955\" alt=\"undefined\"/><br class=\"img-brk\"/><img src=\"https://cbu01.alicdn.com/img/ibank/O1CN01STlAhM1qOBKIVt4Mn_!!4073245485-0-cib.jpg?__r__=1702017575955\" alt=\"undefined\"/><br class=\"img-brk\"/><img src=\"https://cbu01.alicdn.com/img/ibank/O1CN01WEw40N1qOBKKVg9yn_!!4073245485-0-cib.jpg?__r__=1702017575955\" alt=\"undefined\"/><br class=\"img-brk\"/><img src=\"https://cbu01.alicdn.com/img/ibank/O1CN01AWRvEy1qOBKJQy8Z3_!!4073245485-0-cib.jpg?__r__=1702017575956\" alt=\"undefined\"/><br class=\"img-brk\"/><img src=\"https://cbu01.alicdn.com/img/ibank/O1CN01Kkm7c21qOBKOEUgCw_!!4073245485-0-cib.jpg?__r__=1702017575956\" alt=\"undefined\"/><br class=\"img-brk\"/><img src=\"https://cbu01.alicdn.com/img/ibank/O1CN01smE8V41qOBKJQkqmJ_!!4073245485-0-cib.jpg?__r__=1702017575956\" alt=\"undefined\"/><br class=\"img-brk\"/><img src=\"https://cbu01.alicdn.com/img/ibank/O1CN01dI1lLq1qOBKIVtCgQ_!!4073245485-0-cib.jpg?__r__=1702017575956\" alt=\"undefined\"/><br class=\"img-brk\"/><br class=\"img-brk\"/><br class=\"img-brk\"/></p>",
+      "extendInfos": [
+        {
+          "key": "isSupportStepPay",
+          "value": "false"
+        },
+        {
+          "key": "isSupportMix",
+          "value": "true"
+        },
+        {
+          "key": "isAlipaySupported",
+          "value": "true"
+        },
+        {
+          "key": "isFactoryMemProcessingOffer",
+          "value": "false"
+        },
+        {
+          "key": "isOnePsale",
+          "value": "true"
+        },
+        {
+          "key": "buyerProtection",
+          "value": "[\"drfh\",\"qtbh\",\"shbp\",\"czbz\",\"hdbp\",\"psbj\"]"
+        },
+        {
+          "key": "buyerProtectionDistribution",
+          "value": "[]"
+        },
+        {
+          "key": "isCrossPotentialOffer",
+          "value": "true"
+        },
+        {
+          "key": "isIndustryStandardOffer",
+          "value": "1"
+        }
+      ],
+      "groupID": [170365518],
+      "image": {
+        "images": [
+          "img/ibank/O1CN018fSNPP1qOBKFV26pR_!!4073245485-0-cib.jpg",
+          "img/ibank/O1CN01Kqu9B71qOB6O7RwXW_!!4073245485-0-cib.jpg",
+          "img/ibank/12431728812_2045633257.jpg",
+          "img/ibank/O1CN01Xi3QpM1qOBAhxzXRo_!!4073245485-0-cib.jpg",
+          "img/ibank/14260293497_2045633257.jpg"
+        ]
+      },
+      "language": "CHINESE",
+      "lastUpdateTime": "20240223123136000+0800",
+      "mainVedio": "https://cloud.video.taobao.com/play/u/4073245485/p/1/e/6/t/1/368028888543.mp4",
+      "periodOfValidity": 3650,
+      "pictureAuth": false,
+      "productID": 606548810291,
+      "productType": "wholesale",
+      "qualityLevel": 6,
+      "referencePrice": "1.3",
+      "saleInfo": {
+        "amountOnSale": 128566570,
+        "minOrderQuantity": 5,
+        "mixWholeSale": true,
+        "priceAuth": false,
+        "priceRanges": [
+          {
+            "price": 1.3,
+            "startQuantity": 5
+          }
+        ],
+        "quoteType": 1,
+        "saleType": "normal",
+        "supportOnlineTrade": true,
+        "unit": "个"
+      },
+      "sellStartTime": "19700101000000000+0800",
+      "sevenDaysRefunds": true,
+      "shippingInfo": {
+        "freightTemplateID": 12006063,
+        "sendGoodsAddressId": 14461929,
+        "sendGoodsAddressText": "浙江省 金华市"
+      },
+      "skuInfos": [
+        {
+          "amountOnSale": 820651,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光白（抽拉丝带）*1号5X5X3.5cm",
+              "skuImageUrl": "img/ibank/O1CN01BGWslZ1qOBKJWp1i6_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光白（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "1号5X5X3.5cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.3,
+          "price": 1.3,
+          "skuCode": "5263059088375",
+          "skuId": 5263059088375,
+          "specId": "84fb1c39e101fb55a7758c21be3923f2"
+        },
+        {
+          "amountOnSale": 924788,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光白（抽拉丝带）*2号7X9X3cm",
+              "skuImageUrl": "img/ibank/O1CN01BGWslZ1qOBKJWp1i6_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光白（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "2号7X9X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.5,
+          "price": 1.5,
+          "skuCode": "5263059088376",
+          "skuId": 5263059088376,
+          "specId": "5860d140a488614794dac1517c7956b0"
+        },
+        {
+          "amountOnSale": 983248,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光白（抽拉丝带）*3号9X9X3cm",
+              "skuImageUrl": "img/ibank/O1CN01BGWslZ1qOBKJWp1i6_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光白（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "3号9X9X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.6,
+          "price": 1.6,
+          "skuCode": "5263059088377",
+          "skuId": 5263059088377,
+          "specId": "8810d787e7de428641a7c2c610714a6d"
+        },
+        {
+          "amountOnSale": 957950,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光白（抽拉丝带）*4号10X10X3.5cm",
+              "skuImageUrl": "img/ibank/O1CN01BGWslZ1qOBKJWp1i6_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光白（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "4号10X10X3.5cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088378",
+          "skuId": 5263059088378,
+          "specId": "f48dd30fc7489244c8afe033803e435d"
+        },
+        {
+          "amountOnSale": 997969,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光白（抽拉丝带）*5号22X4.5X3cm",
+              "skuImageUrl": "img/ibank/O1CN01BGWslZ1qOBKJWp1i6_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光白（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "5号22X4.5X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088379",
+          "skuId": 5263059088379,
+          "specId": "dc418609d5ad08719b986ae51b1d4f5e"
+        },
+        {
+          "amountOnSale": 998936,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光白（抽拉丝带）*6号6X6X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01BGWslZ1qOBKJWp1i6_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光白（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "6号6X6X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.6,
+          "price": 1.6,
+          "skuCode": "5263059088380",
+          "skuId": 5263059088380,
+          "specId": "fffde7e68bce90bc33cccc571c5cd742"
+        },
+        {
+          "amountOnSale": 995599,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光白（抽拉丝带）*7号7X9X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01BGWslZ1qOBKJWp1i6_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光白（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "7号7X9X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.8,
+          "price": 1.8,
+          "skuCode": "5263059088381",
+          "skuId": 5263059088381,
+          "specId": "c3bf7b14b6836cb35064bbb833e2daa7"
+        },
+        {
+          "amountOnSale": 990968,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光白（抽拉丝带）*8号8X8X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01BGWslZ1qOBKJWp1i6_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光白（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "8号8X8X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.8,
+          "price": 1.8,
+          "skuCode": "5263059088382",
+          "skuId": 5263059088382,
+          "specId": "8d54738be68a2b0a064105402170f496"
+        },
+        {
+          "amountOnSale": 953761,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光白（抽拉丝带）*9号9X9X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01BGWslZ1qOBKJWp1i6_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光白（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "9号9X9X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.85,
+          "price": 1.85,
+          "skuCode": "5263059088383",
+          "skuId": 5263059088383,
+          "specId": "945f7f62e93ceae7374634f6e5319b72"
+        },
+        {
+          "amountOnSale": 988647,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光白（抽拉丝带）*10号10X10X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01BGWslZ1qOBKJWp1i6_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光白（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "10号10X10X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.95,
+          "price": 1.95,
+          "skuCode": "5263059088384",
+          "skuId": 5263059088384,
+          "specId": "ac49388abddefa26739e1ac8c9863c63"
+        },
+        {
+          "amountOnSale": 921564,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "黑卡（抽拉丝带）*1号5X5X3.5cm",
+              "skuImageUrl": "img/ibank/O1CN01lBqEX71qOBKH1rwtm_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "黑卡（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "1号5X5X3.5cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.3,
+          "price": 1.3,
+          "skuCode": "5263059088385",
+          "skuId": 5263059088385,
+          "specId": "a27e19ea661b4040ee01546aa1e1b3a9"
+        },
+        {
+          "amountOnSale": 939185,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "黑卡（抽拉丝带）*2号7X9X3cm",
+              "skuImageUrl": "img/ibank/O1CN01lBqEX71qOBKH1rwtm_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "黑卡（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "2号7X9X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.5,
+          "price": 1.5,
+          "skuCode": "5263059088386",
+          "skuId": 5263059088386,
+          "specId": "dadb03d3c45ea81dee46e906680ef904"
+        },
+        {
+          "amountOnSale": 965519,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "黑卡（抽拉丝带）*3号9X9X3cm",
+              "skuImageUrl": "img/ibank/O1CN01lBqEX71qOBKH1rwtm_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "黑卡（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "3号9X9X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.6,
+          "price": 1.6,
+          "skuCode": "5263059088387",
+          "skuId": 5263059088387,
+          "specId": "3ea60f656fef167b86423dd99cd153d3"
+        },
+        {
+          "amountOnSale": 958879,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "黑卡（抽拉丝带）*4号10X10X3.5cm",
+              "skuImageUrl": "img/ibank/O1CN01lBqEX71qOBKH1rwtm_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "黑卡（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "4号10X10X3.5cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088388",
+          "skuId": 5263059088388,
+          "specId": "d842b0df6c54877c43acb3130673bad2"
+        },
+        {
+          "amountOnSale": 963126,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "黑卡（抽拉丝带）*5号22X4.5X3cm",
+              "skuImageUrl": "img/ibank/O1CN01lBqEX71qOBKH1rwtm_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "黑卡（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "5号22X4.5X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088389",
+          "skuId": 5263059088389,
+          "specId": "e042b82b11509fda4aa06cbccfab0e4e"
+        },
+        {
+          "amountOnSale": 997307,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "黑卡（抽拉丝带）*6号6X6X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01lBqEX71qOBKH1rwtm_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "黑卡（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "6号6X6X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.6,
+          "price": 1.6,
+          "skuCode": "5263059088390",
+          "skuId": 5263059088390,
+          "specId": "b3dca94edb6096736fa67e2b11d42922"
+        },
+        {
+          "amountOnSale": 998830,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "黑卡（抽拉丝带）*7号7X9X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01lBqEX71qOBKH1rwtm_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "黑卡（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "7号7X9X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.8,
+          "price": 1.8,
+          "skuCode": "5263059088391",
+          "skuId": 5263059088391,
+          "specId": "0239d0178d20390a6075a3a6c87f1673"
+        },
+        {
+          "amountOnSale": 974257,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "黑卡（抽拉丝带）*8号8X8X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01lBqEX71qOBKH1rwtm_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "黑卡（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "8号8X8X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.8,
+          "price": 1.8,
+          "skuCode": "5263059088392",
+          "skuId": 5263059088392,
+          "specId": "69321c88a7470083a8c886822ffa0b12"
+        },
+        {
+          "amountOnSale": 993847,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "黑卡（抽拉丝带）*9号9X9X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01lBqEX71qOBKH1rwtm_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "黑卡（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "9号9X9X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.85,
+          "price": 1.85,
+          "skuCode": "5263059088393",
+          "skuId": 5263059088393,
+          "specId": "9872fbd75d5c788a3c85960dc3a97984"
+        },
+        {
+          "amountOnSale": 999869,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "黑卡（抽拉丝带）*10号10X10X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01lBqEX71qOBKH1rwtm_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "黑卡（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "10号10X10X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.95,
+          "price": 1.95,
+          "skuCode": "5263059088394",
+          "skuId": 5263059088394,
+          "specId": "631d6fcb18a4dc0b69551d6d8202f253"
+        },
+        {
+          "amountOnSale": 994113,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "牛皮纸（抽拉丝带）*1号5X5X3.5cm",
+              "skuImageUrl": "img/ibank/O1CN018tRx7a1qOBKEXwhrz_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "牛皮纸（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "1号5X5X3.5cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.3,
+          "price": 1.3,
+          "skuCode": "5263059088395",
+          "skuId": 5263059088395,
+          "specId": "8e62bf1b9554a35c5913f07e34fb459e"
+        },
+        {
+          "amountOnSale": 991018,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "牛皮纸（抽拉丝带）*2号7X9X3cm",
+              "skuImageUrl": "img/ibank/O1CN018tRx7a1qOBKEXwhrz_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "牛皮纸（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "2号7X9X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.5,
+          "price": 1.5,
+          "skuCode": "5263059088396",
+          "skuId": 5263059088396,
+          "specId": "8b27879c4d9256fadd78438f447e79dc"
+        },
+        {
+          "amountOnSale": 998542,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "牛皮纸（抽拉丝带）*3号9X9X3cm",
+              "skuImageUrl": "img/ibank/O1CN018tRx7a1qOBKEXwhrz_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "牛皮纸（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "3号9X9X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.6,
+          "price": 1.6,
+          "skuCode": "5263059088397",
+          "skuId": 5263059088397,
+          "specId": "8f5d9c4a88c5f92550d3e4826c240b37"
+        },
+        {
+          "amountOnSale": 996936,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "牛皮纸（抽拉丝带）*4号10X10X3.5cm",
+              "skuImageUrl": "img/ibank/O1CN018tRx7a1qOBKEXwhrz_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "牛皮纸（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "4号10X10X3.5cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088398",
+          "skuId": 5263059088398,
+          "specId": "f0a469af149a47f602ee0836701de0b1"
+        },
+        {
+          "amountOnSale": 997891,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "牛皮纸（抽拉丝带）*5号22X4.5X3cm",
+              "skuImageUrl": "img/ibank/O1CN018tRx7a1qOBKEXwhrz_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "牛皮纸（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "5号22X4.5X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088399",
+          "skuId": 5263059088399,
+          "specId": "dd6b00154428316cd6939ea2aa4ffff5"
+        },
+        {
+          "amountOnSale": 999997,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "牛皮纸（抽拉丝带）*6号6X6X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN018tRx7a1qOBKEXwhrz_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "牛皮纸（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "6号6X6X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.6,
+          "price": 1.6,
+          "skuCode": "5263059088400",
+          "skuId": 5263059088400,
+          "specId": "fd96e2e4f22ac24ca5665dda7c9235f2"
+        },
+        {
+          "amountOnSale": 999989,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "牛皮纸（抽拉丝带）*7号7X9X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN018tRx7a1qOBKEXwhrz_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "牛皮纸（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "7号7X9X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.8,
+          "price": 1.8,
+          "skuCode": "5263059088401",
+          "skuId": 5263059088401,
+          "specId": "b71ff183d4d9eb5a223fc9bd1748bdde"
+        },
+        {
+          "amountOnSale": 996063,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "牛皮纸（抽拉丝带）*8号8X8X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN018tRx7a1qOBKEXwhrz_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "牛皮纸（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "8号8X8X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.8,
+          "price": 1.8,
+          "skuCode": "5263059088402",
+          "skuId": 5263059088402,
+          "specId": "042175a531d4236242cfc8aedbc27c0d"
+        },
+        {
+          "amountOnSale": 998393,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "牛皮纸（抽拉丝带）*9号9X9X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN018tRx7a1qOBKEXwhrz_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "牛皮纸（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "9号9X9X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.85,
+          "price": 1.85,
+          "skuCode": "5263059088403",
+          "skuId": 5263059088403,
+          "specId": "813c2fe6197117fbdaee4ab270112d85"
+        },
+        {
+          "amountOnSale": 999999,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "牛皮纸（抽拉丝带）*10号10X10X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN018tRx7a1qOBKEXwhrz_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "牛皮纸（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "10号10X10X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.95,
+          "price": 1.95,
+          "skuCode": "5263059088404",
+          "skuId": 5263059088404,
+          "specId": "a87424cfc1eb71198a49e82973074254"
+        },
+        {
+          "amountOnSale": 986663,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "白牛皮（抽拉丝带）*1号5X5X3.5cm",
+              "skuImageUrl": "img/ibank/O1CN018rbY1j1qOBKCY8lE2_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "白牛皮（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "1号5X5X3.5cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.3,
+          "price": 1.3,
+          "skuCode": "5263059088465",
+          "skuId": 5263059088465,
+          "specId": "f30e2b3b915857578c8ec94bba6c19c9"
+        },
+        {
+          "amountOnSale": 996921,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "白牛皮（抽拉丝带）*2号7X9X3cm",
+              "skuImageUrl": "img/ibank/O1CN018rbY1j1qOBKCY8lE2_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "白牛皮（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "2号7X9X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.5,
+          "price": 1.5,
+          "skuCode": "5263059088466",
+          "skuId": 5263059088466,
+          "specId": "4fa6e48616f0b871f660dd4f4abb4857"
+        },
+        {
+          "amountOnSale": 899713,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "白牛皮（抽拉丝带）*3号9X9X3cm",
+              "skuImageUrl": "img/ibank/O1CN018rbY1j1qOBKCY8lE2_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "白牛皮（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "3号9X9X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.6,
+          "price": 1.6,
+          "skuCode": "5263059088467",
+          "skuId": 5263059088467,
+          "specId": "42791f4ea0e3dca95eae983130bca0d7"
+        },
+        {
+          "amountOnSale": 999460,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "白牛皮（抽拉丝带）*4号10X10X3.5cm",
+              "skuImageUrl": "img/ibank/O1CN018rbY1j1qOBKCY8lE2_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "白牛皮（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "4号10X10X3.5cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088468",
+          "skuId": 5263059088468,
+          "specId": "a8e5750c260b9bb560e18fab870160e6"
+        },
+        {
+          "amountOnSale": 998416,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "白牛皮（抽拉丝带）*5号22X4.5X3cm",
+              "skuImageUrl": "img/ibank/O1CN018rbY1j1qOBKCY8lE2_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "白牛皮（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "5号22X4.5X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088469",
+          "skuId": 5263059088469,
+          "specId": "7defaac01f15792ef061116dbaa18dfe"
+        },
+        {
+          "amountOnSale": 899999,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "白牛皮（抽拉丝带）*6号6X6X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN018rbY1j1qOBKCY8lE2_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "白牛皮（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "6号6X6X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.3,
+          "price": 1.3,
+          "skuCode": "5263059088470",
+          "skuId": 5263059088470,
+          "specId": "848e25ae3f6c847d0df657b26dff831f"
+        },
+        {
+          "amountOnSale": 899995,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "白牛皮（抽拉丝带）*7号7X9X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN018rbY1j1qOBKCY8lE2_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "白牛皮（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "7号7X9X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.5,
+          "price": 1.5,
+          "skuCode": "5263059088471",
+          "skuId": 5263059088471,
+          "specId": "eab68d7fe8ae3f565771a675fb930f4f"
+        },
+        {
+          "amountOnSale": 900000,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "白牛皮（抽拉丝带）*8号8X8X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN018rbY1j1qOBKCY8lE2_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "白牛皮（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "8号8X8X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.5,
+          "price": 1.5,
+          "skuCode": "5263059088472",
+          "skuId": 5263059088472,
+          "specId": "9b7460f17a0fd1010941fef45576d38a"
+        },
+        {
+          "amountOnSale": 900000,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "白牛皮（抽拉丝带）*9号9X9X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN018rbY1j1qOBKCY8lE2_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "白牛皮（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "9号9X9X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.6,
+          "price": 1.6,
+          "skuCode": "5263059088473",
+          "skuId": 5263059088473,
+          "specId": "224de981f2b4814f0c14844fdf26f42c"
+        },
+        {
+          "amountOnSale": 900000,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "白牛皮（抽拉丝带）*10号10X10X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN018rbY1j1qOBKCY8lE2_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "白牛皮（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "10号10X10X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088474",
+          "skuId": 5263059088474,
+          "specId": "3039fbf1ac3a7503f4602024b0b2a262"
+        },
+        {
+          "amountOnSale": 981585,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "深蓝（抽拉丝带）*1号5X5X3.5cm",
+              "skuImageUrl": "img/ibank/O1CN01o3gd3z1qOBK6LhlI7_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "深蓝（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "1号5X5X3.5cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.3,
+          "price": 1.3,
+          "skuCode": "5263059088415",
+          "skuId": 5263059088415,
+          "specId": "95d44132aa4d4e7a2d6cebac8694422d"
+        },
+        {
+          "amountOnSale": 993112,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "深蓝（抽拉丝带）*2号7X9X3cm",
+              "skuImageUrl": "img/ibank/O1CN01o3gd3z1qOBK6LhlI7_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "深蓝（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "2号7X9X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.5,
+          "price": 1.5,
+          "skuCode": "5263059088416",
+          "skuId": 5263059088416,
+          "specId": "cb4e0f45c237f041d789085c6d886576"
+        },
+        {
+          "amountOnSale": 985921,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "深蓝（抽拉丝带）*3号9X9X3cm",
+              "skuImageUrl": "img/ibank/O1CN01o3gd3z1qOBK6LhlI7_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "深蓝（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "3号9X9X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.6,
+          "price": 1.6,
+          "skuCode": "5263059088417",
+          "skuId": 5263059088417,
+          "specId": "1af4042b9f955d821b0a7fdba80e0177"
+        },
+        {
+          "amountOnSale": 997852,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "深蓝（抽拉丝带）*4号10X10X3.5cm",
+              "skuImageUrl": "img/ibank/O1CN01o3gd3z1qOBK6LhlI7_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "深蓝（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "4号10X10X3.5cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088418",
+          "skuId": 5263059088418,
+          "specId": "4f70fd6452f34f79921d2f3fd75a02d2"
+        },
+        {
+          "amountOnSale": 993862,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "深蓝（抽拉丝带）*5号22X4.5X3cm",
+              "skuImageUrl": "img/ibank/O1CN01o3gd3z1qOBK6LhlI7_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "深蓝（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "5号22X4.5X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088419",
+          "skuId": 5263059088419,
+          "specId": "331e5aa6a61ac344422469065217b5ce"
+        },
+        {
+          "amountOnSale": 998917,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "深蓝（抽拉丝带）*6号6X6X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01o3gd3z1qOBK6LhlI7_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "深蓝（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "6号6X6X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.6,
+          "price": 1.6,
+          "skuCode": "5263059088420",
+          "skuId": 5263059088420,
+          "specId": "a2b870cf89c39ac6eb3950feb6094944"
+        },
+        {
+          "amountOnSale": 999967,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "深蓝（抽拉丝带）*7号7X9X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01o3gd3z1qOBK6LhlI7_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "深蓝（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "7号7X9X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.8,
+          "price": 1.8,
+          "skuCode": "5263059088421",
+          "skuId": 5263059088421,
+          "specId": "25adf8b804b0d0dbfd7c766d68b59ed8"
+        },
+        {
+          "amountOnSale": 997692,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "深蓝（抽拉丝带）*8号8X8X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01o3gd3z1qOBK6LhlI7_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "深蓝（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "8号8X8X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.8,
+          "price": 1.8,
+          "skuCode": "5263059088422",
+          "skuId": 5263059088422,
+          "specId": "9d626121b0fe6da1e2e01b5b02e5ebc9"
+        },
+        {
+          "amountOnSale": 999227,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "深蓝（抽拉丝带）*9号9X9X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01o3gd3z1qOBK6LhlI7_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "深蓝（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "9号9X9X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.85,
+          "price": 1.85,
+          "skuCode": "5263059088423",
+          "skuId": 5263059088423,
+          "specId": "4c42fcee7f0bf5ab5d27d5817fbfc395"
+        },
+        {
+          "amountOnSale": 999942,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "深蓝（抽拉丝带）*10号10X10X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01o3gd3z1qOBK6LhlI7_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "深蓝（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "10号10X10X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.95,
+          "price": 1.95,
+          "skuCode": "5263059088424",
+          "skuId": 5263059088424,
+          "specId": "934187b77a74adcfa63da23c46cf70fc"
+        },
+        {
+          "amountOnSale": 994903,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "粉红（抽拉丝带）*1号5X5X3.5cm",
+              "skuImageUrl": "img/ibank/14348210918_2045633257.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "粉红（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "1号5X5X3.5cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.3,
+          "price": 1.3,
+          "skuCode": "5263059088425",
+          "skuId": 5263059088425,
+          "specId": "bd299dd9b1c21b3778d5b7fac21bcee8"
+        },
+        {
+          "amountOnSale": 997885,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "粉红（抽拉丝带）*2号7X9X3cm",
+              "skuImageUrl": "img/ibank/14348210918_2045633257.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "粉红（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "2号7X9X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.5,
+          "price": 1.5,
+          "skuCode": "5263059088426",
+          "skuId": 5263059088426,
+          "specId": "1591c6a43e3ec7b00206f2d23caa45fd"
+        },
+        {
+          "amountOnSale": 0,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "粉红（抽拉丝带）*3号9X9X3cm",
+              "skuImageUrl": "img/ibank/14348210918_2045633257.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "粉红（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "3号9X9X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.6,
+          "price": 1.6,
+          "skuCode": "5263059088427",
+          "skuId": 5263059088427,
+          "specId": "24f6b61b17bef2decb0df46b51136c9e"
+        },
+        {
+          "amountOnSale": 999813,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "粉红（抽拉丝带）*4号10X10X3.5cm",
+              "skuImageUrl": "img/ibank/14348210918_2045633257.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "粉红（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "4号10X10X3.5cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088428",
+          "skuId": 5263059088428,
+          "specId": "1ad07276cc78c5c1287049463761bb3f"
+        },
+        {
+          "amountOnSale": 999706,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "粉红（抽拉丝带）*5号22X4.5X3cm",
+              "skuImageUrl": "img/ibank/14348210918_2045633257.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "粉红（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "5号22X4.5X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088429",
+          "skuId": 5263059088429,
+          "specId": "48a13ae027dcca9c12e73b876ba1ec03"
+        },
+        {
+          "amountOnSale": 0,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "粉红（抽拉丝带）*6号6X6X1.7cm",
+              "skuImageUrl": "img/ibank/14348210918_2045633257.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "粉红（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "6号6X6X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.6,
+          "price": 1.6,
+          "skuCode": "5263059088430",
+          "skuId": 5263059088430,
+          "specId": "50f15faa77476b2ac8aa1205cac1eaa2"
+        },
+        {
+          "amountOnSale": 0,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "粉红（抽拉丝带）*7号7X9X1.7cm",
+              "skuImageUrl": "img/ibank/14348210918_2045633257.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "粉红（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "7号7X9X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 18,
+          "price": 18,
+          "skuCode": "5263059088431",
+          "skuId": 5263059088431,
+          "specId": "088fee2e971fbb7ea8290b8441e75f47"
+        },
+        {
+          "amountOnSale": 0,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "粉红（抽拉丝带）*8号8X8X1.7cm",
+              "skuImageUrl": "img/ibank/14348210918_2045633257.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "粉红（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "8号8X8X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.8,
+          "price": 1.8,
+          "skuCode": "5263059088432",
+          "skuId": 5263059088432,
+          "specId": "7a30294c36d53dad76c937260878d637"
+        },
+        {
+          "amountOnSale": 0,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "粉红（抽拉丝带）*9号9X9X1.7cm",
+              "skuImageUrl": "img/ibank/14348210918_2045633257.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "粉红（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "9号9X9X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.85,
+          "price": 1.85,
+          "skuCode": "5263059088433",
+          "skuId": 5263059088433,
+          "specId": "0248cfef3c20bb2c281c62e302e1fb2f"
+        },
+        {
+          "amountOnSale": 0,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "粉红（抽拉丝带）*10号10X10X1.7cm",
+              "skuImageUrl": "img/ibank/14348210918_2045633257.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "粉红（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "10号10X10X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.95,
+          "price": 1.95,
+          "skuCode": "5263059088434",
+          "skuId": 5263059088434,
+          "specId": "64fe9e8cba1ee8d0510a04ba49bca065"
+        },
+        {
+          "amountOnSale": 998432,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "大红（抽拉丝带）*1号5X5X3.5cm",
+              "skuImageUrl": "img/ibank/O1CN01ffBKLr1qOBKC3w2gL_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "大红（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "1号5X5X3.5cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.3,
+          "price": 1.3,
+          "skuCode": "5263059088435",
+          "skuId": 5263059088435,
+          "specId": "76fef10aa304ca9ea137049cf3e7383e"
+        },
+        {
+          "amountOnSale": 993135,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "大红（抽拉丝带）*2号7X9X3cm",
+              "skuImageUrl": "img/ibank/O1CN01ffBKLr1qOBKC3w2gL_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "大红（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "2号7X9X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.5,
+          "price": 1.5,
+          "skuCode": "5263059088436",
+          "skuId": 5263059088436,
+          "specId": "113e0dc5393ebbe4e143396e32fb0d74"
+        },
+        {
+          "amountOnSale": 999118,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "大红（抽拉丝带）*3号9X9X3cm",
+              "skuImageUrl": "img/ibank/O1CN01ffBKLr1qOBKC3w2gL_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "大红（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "3号9X9X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.6,
+          "price": 1.6,
+          "skuCode": "5263059088437",
+          "skuId": 5263059088437,
+          "specId": "c99a26c2a609340f9de9dcd429ef80f4"
+        },
+        {
+          "amountOnSale": 999623,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "大红（抽拉丝带）*4号10X10X3.5cm",
+              "skuImageUrl": "img/ibank/O1CN01ffBKLr1qOBKC3w2gL_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "大红（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "4号10X10X3.5cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088438",
+          "skuId": 5263059088438,
+          "specId": "2a3f5fc63d66ef472bb349fa3b094b64"
+        },
+        {
+          "amountOnSale": 999243,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "大红（抽拉丝带）*5号22X4.5X3cm",
+              "skuImageUrl": "img/ibank/O1CN01ffBKLr1qOBKC3w2gL_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "大红（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "5号22X4.5X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088439",
+          "skuId": 5263059088439,
+          "specId": "31d10a7c535df0e7d084a78080d0f0b6"
+        },
+        {
+          "amountOnSale": 999999,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "大红（抽拉丝带）*6号6X6X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01ffBKLr1qOBKC3w2gL_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "大红（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "6号6X6X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.6,
+          "price": 1.6,
+          "skuCode": "5263059088440",
+          "skuId": 5263059088440,
+          "specId": "913c1c642beecfde00971434c066907a"
+        },
+        {
+          "amountOnSale": 999999,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "大红（抽拉丝带）*7号7X9X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01ffBKLr1qOBKC3w2gL_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "大红（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "7号7X9X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.8,
+          "price": 1.8,
+          "skuCode": "5263059088441",
+          "skuId": 5263059088441,
+          "specId": "62d50f1410ba733b5bdb1f33f99cadf4"
+        },
+        {
+          "amountOnSale": 997005,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "大红（抽拉丝带）*8号8X8X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01ffBKLr1qOBKC3w2gL_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "大红（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "8号8X8X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.8,
+          "price": 1.8,
+          "skuCode": "5263059088442",
+          "skuId": 5263059088442,
+          "specId": "b10c26f7d5d42fb6bb4533224ea5751d"
+        },
+        {
+          "amountOnSale": 999983,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "大红（抽拉丝带）*9号9X9X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01ffBKLr1qOBKC3w2gL_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "大红（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "9号9X9X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.85,
+          "price": 1.85,
+          "skuCode": "5263059088443",
+          "skuId": 5263059088443,
+          "specId": "fc359b84d6cbd75e376ab747aa3a0298"
+        },
+        {
+          "amountOnSale": 999949,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "大红（抽拉丝带）*10号10X10X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01ffBKLr1qOBKC3w2gL_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "大红（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "10号10X10X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.95,
+          "price": 1.95,
+          "skuCode": "5263059088444",
+          "skuId": 5263059088444,
+          "specId": "3b745de623ef49648996e3ab06740f6f"
+        },
+        {
+          "amountOnSale": 988406,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光浅粉（抽拉丝带）*1号5X5X3.5cm",
+              "skuImageUrl": "img/ibank/O1CN01zrRoev1qOBDJulMqk_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光浅粉（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "1号5X5X3.5cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.3,
+          "price": 1.3,
+          "skuCode": "5263059088445",
+          "skuId": 5263059088445,
+          "specId": "e256d12e6b86e2127f44d60cbe99b5e5"
+        },
+        {
+          "amountOnSale": 997755,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光浅粉（抽拉丝带）*2号7X9X3cm",
+              "skuImageUrl": "img/ibank/O1CN01zrRoev1qOBDJulMqk_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光浅粉（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "2号7X9X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.5,
+          "price": 1.5,
+          "skuCode": "5263059088446",
+          "skuId": 5263059088446,
+          "specId": "c558cf12548f7fafc51f942c4208a1e1"
+        },
+        {
+          "amountOnSale": 995540,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光浅粉（抽拉丝带）*3号9X9X3cm",
+              "skuImageUrl": "img/ibank/O1CN01zrRoev1qOBDJulMqk_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光浅粉（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "3号9X9X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.6,
+          "price": 1.6,
+          "skuCode": "5263059088447",
+          "skuId": 5263059088447,
+          "specId": "c2ceadcc133c7f80035ecae2f2fc4472"
+        },
+        {
+          "amountOnSale": 999065,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光浅粉（抽拉丝带）*4号10X10X3.5cm",
+              "skuImageUrl": "img/ibank/O1CN01zrRoev1qOBDJulMqk_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光浅粉（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "4号10X10X3.5cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088448",
+          "skuId": 5263059088448,
+          "specId": "be8561ad5a0b476e99c933a3d9a86c2a"
+        },
+        {
+          "amountOnSale": 999727,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光浅粉（抽拉丝带）*5号22X4.5X3cm",
+              "skuImageUrl": "img/ibank/O1CN01zrRoev1qOBDJulMqk_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光浅粉（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "5号22X4.5X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088449",
+          "skuId": 5263059088449,
+          "specId": "40377205e94e607f3bf00b4cc0d441b6"
+        },
+        {
+          "amountOnSale": 997251,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光浅粉（抽拉丝带）*6号6X6X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01zrRoev1qOBDJulMqk_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光浅粉（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "6号6X6X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.6,
+          "price": 1.6,
+          "skuCode": "5263059088450",
+          "skuId": 5263059088450,
+          "specId": "b0d260c6ef40f6334d857c3552cbd152"
+        },
+        {
+          "amountOnSale": 999984,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光浅粉（抽拉丝带）*7号7X9X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01zrRoev1qOBDJulMqk_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光浅粉（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "7号7X9X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.8,
+          "price": 1.8,
+          "skuCode": "5263059088451",
+          "skuId": 5263059088451,
+          "specId": "cf3db347b998e8d264cc9d32ed7c1235"
+        },
+        {
+          "amountOnSale": 995087,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光浅粉（抽拉丝带）*8号8X8X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01zrRoev1qOBDJulMqk_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光浅粉（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "8号8X8X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.8,
+          "price": 1.8,
+          "skuCode": "5263059088452",
+          "skuId": 5263059088452,
+          "specId": "73607a2be072ab92b3a7bb09fa1b2930"
+        },
+        {
+          "amountOnSale": 998945,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光浅粉（抽拉丝带）*9号9X9X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01zrRoev1qOBDJulMqk_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光浅粉（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "9号9X9X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.85,
+          "price": 1.85,
+          "skuCode": "5263059088453",
+          "skuId": 5263059088453,
+          "specId": "0c49a4d1d3713d8dd03ce306cd9e9620"
+        },
+        {
+          "amountOnSale": 999831,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光浅粉（抽拉丝带）*10号10X10X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01zrRoev1qOBDJulMqk_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光浅粉（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "10号10X10X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.95,
+          "price": 1.95,
+          "skuCode": "5263059088454",
+          "skuId": 5263059088454,
+          "specId": "99c354265ef38a48c2099a5e5194765d"
+        },
+        {
+          "amountOnSale": 999605,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光天蓝（抽拉丝带）*1号5X5X3.5cm",
+              "skuImageUrl": "img/ibank/O1CN01fncGOb1qOBDJAh00P_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光天蓝（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "1号5X5X3.5cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.3,
+          "price": 1.3,
+          "skuCode": "5263059088455",
+          "skuId": 5263059088455,
+          "specId": "e1dbe0898b563861bfb8d7b81ef298c7"
+        },
+        {
+          "amountOnSale": 999253,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光天蓝（抽拉丝带）*2号7X9X3cm",
+              "skuImageUrl": "img/ibank/O1CN01fncGOb1qOBDJAh00P_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光天蓝（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "2号7X9X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.5,
+          "price": 1.5,
+          "skuCode": "5263059088456",
+          "skuId": 5263059088456,
+          "specId": "0f96497548aa6ff93706c78764f25593"
+        },
+        {
+          "amountOnSale": 998823,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光天蓝（抽拉丝带）*3号9X9X3cm",
+              "skuImageUrl": "img/ibank/O1CN01fncGOb1qOBDJAh00P_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光天蓝（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "3号9X9X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.6,
+          "price": 1.6,
+          "skuCode": "5263059088457",
+          "skuId": 5263059088457,
+          "specId": "d465e6898d2538c9a5d3a2f0fcaa997d"
+        },
+        {
+          "amountOnSale": 999807,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光天蓝（抽拉丝带）*4号10X10X3.5cm",
+              "skuImageUrl": "img/ibank/O1CN01fncGOb1qOBDJAh00P_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光天蓝（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "4号10X10X3.5cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088458",
+          "skuId": 5263059088458,
+          "specId": "bf2fd2019f3dafa01dec9e21aa9ee3ff"
+        },
+        {
+          "amountOnSale": 999142,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光天蓝（抽拉丝带）*5号22X4.5X3cm",
+              "skuImageUrl": "img/ibank/O1CN01fncGOb1qOBDJAh00P_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光天蓝（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "5号22X4.5X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088459",
+          "skuId": 5263059088459,
+          "specId": "e4c552c6901563bdf58be236b2fbe70a"
+        },
+        {
+          "amountOnSale": 999990,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光天蓝（抽拉丝带）*6号6X6X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01fncGOb1qOBDJAh00P_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光天蓝（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "6号6X6X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.6,
+          "price": 1.6,
+          "skuCode": "5263059088460",
+          "skuId": 5263059088460,
+          "specId": "d34b75e34d4631ec77fd402cebbbaef8"
+        },
+        {
+          "amountOnSale": 999684,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光天蓝（抽拉丝带）*7号7X9X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01fncGOb1qOBDJAh00P_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光天蓝（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "7号7X9X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.8,
+          "price": 1.8,
+          "skuCode": "5263059088461",
+          "skuId": 5263059088461,
+          "specId": "dc9a5f99d6db7853ba91c2243705550f"
+        },
+        {
+          "amountOnSale": 999994,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光天蓝（抽拉丝带）*8号8X8X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01fncGOb1qOBDJAh00P_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光天蓝（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "8号8X8X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.8,
+          "price": 1.8,
+          "skuCode": "5263059088462",
+          "skuId": 5263059088462,
+          "specId": "c0ad0aae2bf43d5551a3643408a5aa20"
+        },
+        {
+          "amountOnSale": 999106,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光天蓝（抽拉丝带）*9号9X9X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01fncGOb1qOBDJAh00P_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光天蓝（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "9号9X9X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.85,
+          "price": 1.85,
+          "skuCode": "5263059088463",
+          "skuId": 5263059088463,
+          "specId": "09adcafe2c05773e7cc4cd43d3cd0650"
+        },
+        {
+          "amountOnSale": 999936,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光天蓝（抽拉丝带）*10号10X10X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01fncGOb1qOBDJAh00P_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光天蓝（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "10号10X10X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.95,
+          "price": 1.95,
+          "skuCode": "5263059088464",
+          "skuId": 5263059088464,
+          "specId": "36e9db3225c397f27b36c9d3d0b18d8c"
+        },
+        {
+          "amountOnSale": 899942,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光墨绿（抽拉丝带）*1号5X5X3.5cm",
+              "skuImageUrl": "img/ibank/O1CN01TuXJCE1qOBKJVjYcE_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光墨绿（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "1号5X5X3.5cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.3,
+          "price": 1.3,
+          "skuCode": "5263059088475",
+          "skuId": 5263059088475,
+          "specId": "027d757958f655d36afecf0caf54e364"
+        },
+        {
+          "amountOnSale": 899970,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光墨绿（抽拉丝带）*2号7X9X3cm",
+              "skuImageUrl": "img/ibank/O1CN01TuXJCE1qOBKJVjYcE_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光墨绿（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "2号7X9X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.5,
+          "price": 1.5,
+          "skuCode": "5263059088476",
+          "skuId": 5263059088476,
+          "specId": "b042e25c68e1b47dcf8fd4adf6cb6992"
+        },
+        {
+          "amountOnSale": 899590,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光墨绿（抽拉丝带）*3号9X9X3cm",
+              "skuImageUrl": "img/ibank/O1CN01TuXJCE1qOBKJVjYcE_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光墨绿（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "3号9X9X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.6,
+          "price": 1.6,
+          "skuCode": "5263059088477",
+          "skuId": 5263059088477,
+          "specId": "bbd28612ab14a36276d9a081340de33a"
+        },
+        {
+          "amountOnSale": 899947,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光墨绿（抽拉丝带）*4号10X10X3.5cm",
+              "skuImageUrl": "img/ibank/O1CN01TuXJCE1qOBKJVjYcE_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光墨绿（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "4号10X10X3.5cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088478",
+          "skuId": 5263059088478,
+          "specId": "d3975a7740942c2eed3b2d2f4317d355"
+        },
+        {
+          "amountOnSale": 899978,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光墨绿（抽拉丝带）*5号22X4.5X3cm",
+              "skuImageUrl": "img/ibank/O1CN01TuXJCE1qOBKJVjYcE_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光墨绿（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "5号22X4.5X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088479",
+          "skuId": 5263059088479,
+          "specId": "f7ed304853d5953af0e84bfc35c1cb5d"
+        },
+        {
+          "amountOnSale": 899999,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光墨绿（抽拉丝带）*6号6X6X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01TuXJCE1qOBKJVjYcE_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光墨绿（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "6号6X6X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.6,
+          "price": 1.6,
+          "skuCode": "5263059088480",
+          "skuId": 5263059088480,
+          "specId": "b1cfd097baf59f5e5478527d4efe8365"
+        },
+        {
+          "amountOnSale": 900000,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光墨绿（抽拉丝带）*7号7X9X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01TuXJCE1qOBKJVjYcE_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光墨绿（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "7号7X9X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.8,
+          "price": 1.8,
+          "skuCode": "5263059088481",
+          "skuId": 5263059088481,
+          "specId": "e5e058968da3f97f5485749c053d8a70"
+        },
+        {
+          "amountOnSale": 899623,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光墨绿（抽拉丝带）*8号8X8X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01TuXJCE1qOBKJVjYcE_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光墨绿（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "8号8X8X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.8,
+          "price": 1.8,
+          "skuCode": "5263059088482",
+          "skuId": 5263059088482,
+          "specId": "d42927af2d4a7d2b022e01bc24aee7bc"
+        },
+        {
+          "amountOnSale": 900000,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光墨绿（抽拉丝带）*9号9X9X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01TuXJCE1qOBKJVjYcE_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光墨绿（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "9号9X9X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.85,
+          "price": 1.85,
+          "skuCode": "5263059088483",
+          "skuId": 5263059088483,
+          "specId": "26696f36ef5b1d8fb3978185c848dfea"
+        },
+        {
+          "amountOnSale": 900000,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "珠光墨绿（抽拉丝带）*10号10X10X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01TuXJCE1qOBKJVjYcE_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "珠光墨绿（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "10号10X10X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.95,
+          "price": 1.95,
+          "skuCode": "5263059088484",
+          "skuId": 5263059088484,
+          "specId": "787637ebd4f9bf9e1df7c9d1846dd7db"
+        },
+        {
+          "amountOnSale": 899992,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "浅灰色（抽拉丝带）*1号5X5X3.5cm",
+              "skuImageUrl": "img/ibank/O1CN01fuvGgk1qOBKJVsQ0k_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "浅灰色（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "1号5X5X3.5cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.3,
+          "price": 1.3,
+          "skuCode": "5263059088485",
+          "skuId": 5263059088485,
+          "specId": "7bf9cdeba2096a1d00c51a8cff75aac6"
+        },
+        {
+          "amountOnSale": 898687,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "浅灰色（抽拉丝带）*2号7X9X3cm",
+              "skuImageUrl": "img/ibank/O1CN01fuvGgk1qOBKJVsQ0k_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "浅灰色（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "2号7X9X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.5,
+          "price": 1.5,
+          "skuCode": "5263059088486",
+          "skuId": 5263059088486,
+          "specId": "5b0320104c0290ff16bb97189cd4353b"
+        },
+        {
+          "amountOnSale": 899951,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "浅灰色（抽拉丝带）*3号9X9X3cm",
+              "skuImageUrl": "img/ibank/O1CN01fuvGgk1qOBKJVsQ0k_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "浅灰色（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "3号9X9X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.6,
+          "price": 1.6,
+          "skuCode": "5263059088487",
+          "skuId": 5263059088487,
+          "specId": "ccffea0ae834bf2e2bbdd85bd8c7f1e8"
+        },
+        {
+          "amountOnSale": 899882,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "浅灰色（抽拉丝带）*4号10X10X3.5cm",
+              "skuImageUrl": "img/ibank/O1CN01fuvGgk1qOBKJVsQ0k_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "浅灰色（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "4号10X10X3.5cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088488",
+          "skuId": 5263059088488,
+          "specId": "7d0a660d0156be975e76b8dd8d048086"
+        },
+        {
+          "amountOnSale": 899999,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "浅灰色（抽拉丝带）*5号22X4.5X3cm",
+              "skuImageUrl": "img/ibank/O1CN01fuvGgk1qOBKJVsQ0k_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "浅灰色（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "5号22X4.5X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088489",
+          "skuId": 5263059088489,
+          "specId": "0d52fe55254eca72d51ff7c5617bb12c"
+        },
+        {
+          "amountOnSale": 899998,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "浅灰色（抽拉丝带）*6号6X6X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01fuvGgk1qOBKJVsQ0k_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "浅灰色（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "6号6X6X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.6,
+          "price": 1.6,
+          "skuCode": "5263059088490",
+          "skuId": 5263059088490,
+          "specId": "f2b858369b8326ed8cec85ecf659016d"
+        },
+        {
+          "amountOnSale": 900000,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "浅灰色（抽拉丝带）*7号7X9X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01fuvGgk1qOBKJVsQ0k_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "浅灰色（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "7号7X9X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.8,
+          "price": 1.8,
+          "skuCode": "5263059088491",
+          "skuId": 5263059088491,
+          "specId": "78571205acc8c8b950c3c3d0b906082e"
+        },
+        {
+          "amountOnSale": 900000,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "浅灰色（抽拉丝带）*8号8X8X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01fuvGgk1qOBKJVsQ0k_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "浅灰色（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "8号8X8X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.8,
+          "price": 1.8,
+          "skuCode": "5263059088492",
+          "skuId": 5263059088492,
+          "specId": "bca4872fc5fd394f38a5d3f0523c19b5"
+        },
+        {
+          "amountOnSale": 900000,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "浅灰色（抽拉丝带）*9号9X9X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01fuvGgk1qOBKJVsQ0k_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "浅灰色（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "9号9X9X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.85,
+          "price": 1.85,
+          "skuCode": "5263059088493",
+          "skuId": 5263059088493,
+          "specId": "217f690008caea62906e0587aa599c30"
+        },
+        {
+          "amountOnSale": 900000,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "浅灰色（抽拉丝带）*10号10X10X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01fuvGgk1qOBKJVsQ0k_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "浅灰色（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "10号10X10X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.95,
+          "price": 1.95,
+          "skuCode": "5263059088494",
+          "skuId": 5263059088494,
+          "specId": "459068670f5abf1ff3040f76673fce1e"
+        },
+        {
+          "amountOnSale": 900000,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "黄色（抽拉丝带）*1号5X5X3.5cm",
+              "skuImageUrl": "img/ibank/O1CN012m2PKM1qOBKFSU4dJ_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "黄色（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "1号5X5X3.5cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.3,
+          "price": 1.3,
+          "skuCode": "5263059088495",
+          "skuId": 5263059088495,
+          "specId": "518914590c58606e48f87a18f7cf0fe2"
+        },
+        {
+          "amountOnSale": 899510,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "黄色（抽拉丝带）*2号7X9X3cm",
+              "skuImageUrl": "img/ibank/O1CN012m2PKM1qOBKFSU4dJ_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "黄色（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "2号7X9X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.5,
+          "price": 1.5,
+          "skuCode": "5263059088496",
+          "skuId": 5263059088496,
+          "specId": "0c8707fab0ef3368e60ff5c50c6652f0"
+        },
+        {
+          "amountOnSale": 900000,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "黄色（抽拉丝带）*3号9X9X3cm",
+              "skuImageUrl": "img/ibank/O1CN012m2PKM1qOBKFSU4dJ_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "黄色（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "3号9X9X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.6,
+          "price": 1.6,
+          "skuCode": "5263059088497",
+          "skuId": 5263059088497,
+          "specId": "ceb1ceed27c8d1fe9adc4c77ab618228"
+        },
+        {
+          "amountOnSale": 900000,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "黄色（抽拉丝带）*4号10X10X3.5cm",
+              "skuImageUrl": "img/ibank/O1CN012m2PKM1qOBKFSU4dJ_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "黄色（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "4号10X10X3.5cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088498",
+          "skuId": 5263059088498,
+          "specId": "3b838525c0b5a4dce163c395e0f6c91d"
+        },
+        {
+          "amountOnSale": 900000,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "黄色（抽拉丝带）*5号22X4.5X3cm",
+              "skuImageUrl": "img/ibank/O1CN012m2PKM1qOBKFSU4dJ_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "黄色（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "5号22X4.5X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088499",
+          "skuId": 5263059088499,
+          "specId": "c7620c3389f58eaeda52512d044fc097"
+        },
+        {
+          "amountOnSale": 900000,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "黄色（抽拉丝带）*6号6X6X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN012m2PKM1qOBKFSU4dJ_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "黄色（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "6号6X6X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.6,
+          "price": 1.6,
+          "skuCode": "5263059088500",
+          "skuId": 5263059088500,
+          "specId": "156a9b1eed34df776f7449816cec4fc9"
+        },
+        {
+          "amountOnSale": 900000,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "黄色（抽拉丝带）*7号7X9X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN012m2PKM1qOBKFSU4dJ_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "黄色（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "7号7X9X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.8,
+          "price": 1.8,
+          "skuCode": "5263059088501",
+          "skuId": 5263059088501,
+          "specId": "f663fb05ef0b88eb4cba15cee52b3ad2"
+        },
+        {
+          "amountOnSale": 900000,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "黄色（抽拉丝带）*8号8X8X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN012m2PKM1qOBKFSU4dJ_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "黄色（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "8号8X8X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.8,
+          "price": 1.8,
+          "skuCode": "5263059088502",
+          "skuId": 5263059088502,
+          "specId": "fe6d880903859a06c9ed229eb1082b03"
+        },
+        {
+          "amountOnSale": 900000,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "黄色（抽拉丝带）*9号9X9X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN012m2PKM1qOBKFSU4dJ_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "黄色（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "9号9X9X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.85,
+          "price": 1.85,
+          "skuCode": "5263059088503",
+          "skuId": 5263059088503,
+          "specId": "8aefd094d86ddb27e7107fb436f25f1d"
+        },
+        {
+          "amountOnSale": 900000,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "黄色（抽拉丝带）*10号10X10X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN012m2PKM1qOBKFSU4dJ_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "黄色（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "10号10X10X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.95,
+          "price": 1.95,
+          "skuCode": "5263059088504",
+          "skuId": 5263059088504,
+          "specId": "691fc5b5667885d8e8ec1f055348fa75"
+        },
+        {
+          "amountOnSale": 899998,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "橙色（抽拉丝带）*1号5X5X3.5cm",
+              "skuImageUrl": "img/ibank/O1CN01QgrDtu1qOBKEV4sF4_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "橙色（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "1号5X5X3.5cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.3,
+          "price": 1.3,
+          "skuCode": "5263059088505",
+          "skuId": 5263059088505,
+          "specId": "c7777aba4a98fd87efb210867c0f759a"
+        },
+        {
+          "amountOnSale": 899993,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "橙色（抽拉丝带）*2号7X9X3cm",
+              "skuImageUrl": "img/ibank/O1CN01QgrDtu1qOBKEV4sF4_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "橙色（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "2号7X9X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.5,
+          "price": 1.5,
+          "skuCode": "5263059088506",
+          "skuId": 5263059088506,
+          "specId": "e572e37238d68968984c65e5dc53e4d6"
+        },
+        {
+          "amountOnSale": 899979,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "橙色（抽拉丝带）*3号9X9X3cm",
+              "skuImageUrl": "img/ibank/O1CN01QgrDtu1qOBKEV4sF4_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "橙色（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "3号9X9X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.6,
+          "price": 1.6,
+          "skuCode": "5263059088507",
+          "skuId": 5263059088507,
+          "specId": "cf518bee31c42d95adc3937ad85ee239"
+        },
+        {
+          "amountOnSale": 899999,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "橙色（抽拉丝带）*4号10X10X3.5cm",
+              "skuImageUrl": "img/ibank/O1CN01QgrDtu1qOBKEV4sF4_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "橙色（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "4号10X10X3.5cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088508",
+          "skuId": 5263059088508,
+          "specId": "8150e4093691369ca30e8156f7c5effe"
+        },
+        {
+          "amountOnSale": 899000,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "橙色（抽拉丝带）*5号22X4.5X3cm",
+              "skuImageUrl": "img/ibank/O1CN01QgrDtu1qOBKEV4sF4_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "橙色（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "5号22X4.5X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088509",
+          "skuId": 5263059088509,
+          "specId": "acec1bcf6142c1406c303ad34094695e"
+        },
+        {
+          "amountOnSale": 899999,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "橙色（抽拉丝带）*6号6X6X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01QgrDtu1qOBKEV4sF4_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "橙色（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "6号6X6X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.6,
+          "price": 1.6,
+          "skuCode": "5263059088510",
+          "skuId": 5263059088510,
+          "specId": "564033427ab5257a14574aa735b8e732"
+        },
+        {
+          "amountOnSale": 900000,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "橙色（抽拉丝带）*7号7X9X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01QgrDtu1qOBKEV4sF4_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "橙色（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "7号7X9X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.8,
+          "price": 1.8,
+          "skuCode": "5263059088511",
+          "skuId": 5263059088511,
+          "specId": "7af8bd4979836a60c757c10109cd566a"
+        },
+        {
+          "amountOnSale": 900000,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "橙色（抽拉丝带）*8号8X8X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01QgrDtu1qOBKEV4sF4_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "橙色（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "8号8X8X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.8,
+          "price": 1.8,
+          "skuCode": "5263059088512",
+          "skuId": 5263059088512,
+          "specId": "6e5bf85068ab278e647fc70253016e85"
+        },
+        {
+          "amountOnSale": 900000,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "橙色（抽拉丝带）*9号9X9X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01QgrDtu1qOBKEV4sF4_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "橙色（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "9号9X9X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.85,
+          "price": 1.85,
+          "skuCode": "5263059088513",
+          "skuId": 5263059088513,
+          "specId": "38aebc39e2a3e757fc1b9bd7f442a59b"
+        },
+        {
+          "amountOnSale": 900000,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "橙色（抽拉丝带）*10号10X10X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01QgrDtu1qOBKEV4sF4_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "橙色（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "10号10X10X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.95,
+          "price": 1.95,
+          "skuCode": "5263059088514",
+          "skuId": 5263059088514,
+          "specId": "372e8beadeadc138784a02e176aeead7"
+        },
+        {
+          "amountOnSale": 899997,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "深紫（抽拉丝带）*1号5X5X3.5cm",
+              "skuImageUrl": "img/ibank/O1CN01WNw28J1qOBK6KYCNW_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "深紫（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "1号5X5X3.5cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.3,
+          "price": 1.3,
+          "skuCode": "5263059088515",
+          "skuId": 5263059088515,
+          "specId": "4c65d612169c0fae3c4ab0a2c482a092"
+        },
+        {
+          "amountOnSale": 898478,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "深紫（抽拉丝带）*2号7X9X3cm",
+              "skuImageUrl": "img/ibank/O1CN01WNw28J1qOBK6KYCNW_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "深紫（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "2号7X9X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.5,
+          "price": 1.5,
+          "skuCode": "5263059088516",
+          "skuId": 5263059088516,
+          "specId": "0c9beb8531bf33e6333c8175f896da12"
+        },
+        {
+          "amountOnSale": 899972,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "深紫（抽拉丝带）*3号9X9X3cm",
+              "skuImageUrl": "img/ibank/O1CN01WNw28J1qOBK6KYCNW_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "深紫（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "3号9X9X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.6,
+          "price": 1.6,
+          "skuCode": "5263059088517",
+          "skuId": 5263059088517,
+          "specId": "bb8205346fabbe6c2510702ab29b43d7"
+        },
+        {
+          "amountOnSale": 899985,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "深紫（抽拉丝带）*4号10X10X3.5cm",
+              "skuImageUrl": "img/ibank/O1CN01WNw28J1qOBK6KYCNW_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "深紫（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "4号10X10X3.5cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088518",
+          "skuId": 5263059088518,
+          "specId": "d86eb69faa826ae0ff7982791557c22b"
+        },
+        {
+          "amountOnSale": 900000,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "深紫（抽拉丝带）*5号22X4.5X3cm",
+              "skuImageUrl": "img/ibank/O1CN01WNw28J1qOBK6KYCNW_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "深紫（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "5号22X4.5X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088519",
+          "skuId": 5263059088519,
+          "specId": "807ffc54d236d87a1fb95fa9772df9e0"
+        },
+        {
+          "amountOnSale": 900000,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "深紫（抽拉丝带）*6号6X6X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01WNw28J1qOBK6KYCNW_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "深紫（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "6号6X6X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.6,
+          "price": 1.6,
+          "skuCode": "5263059088520",
+          "skuId": 5263059088520,
+          "specId": "1f6916a1107226fcfe30ea15276be03d"
+        },
+        {
+          "amountOnSale": 900000,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "深紫（抽拉丝带）*7号7X9X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01WNw28J1qOBK6KYCNW_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "深紫（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "7号7X9X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.8,
+          "price": 1.8,
+          "skuCode": "5263059088521",
+          "skuId": 5263059088521,
+          "specId": "160e50a7346abb76e155c8635eb29cc2"
+        },
+        {
+          "amountOnSale": 900000,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "深紫（抽拉丝带）*8号8X8X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01WNw28J1qOBK6KYCNW_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "深紫（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "8号8X8X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.8,
+          "price": 1.8,
+          "skuCode": "5263059088522",
+          "skuId": 5263059088522,
+          "specId": "a18e63764ecbf7fece9c0f9221a8abf3"
+        },
+        {
+          "amountOnSale": 900000,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "深紫（抽拉丝带）*9号9X9X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01WNw28J1qOBK6KYCNW_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "深紫（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "9号9X9X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.85,
+          "price": 1.85,
+          "skuCode": "5263059088523",
+          "skuId": 5263059088523,
+          "specId": "b6e02e9a40251b6b750d28106113785c"
+        },
+        {
+          "amountOnSale": 900000,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "深紫（抽拉丝带）*10号10X10X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN01WNw28J1qOBK6KYCNW_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "深紫（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "10号10X10X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.95,
+          "price": 1.95,
+          "skuCode": "5263059088524",
+          "skuId": 5263059088524,
+          "specId": "2e1f25bc31c234f11ddcd628c55872a3"
+        },
+        {
+          "amountOnSale": 0,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "大理石（抽拉丝带）*1号5X5X3.5cm",
+              "skuImageUrl": "img/ibank/O1CN017Rg9Hs1qOBKEUPv8a_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "大理石（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "1号5X5X3.5cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.3,
+          "price": 1.3,
+          "skuCode": "5263059088405",
+          "skuId": 5263059088405,
+          "specId": "b966c20308f8f65d677baa4274d8f2c2"
+        },
+        {
+          "amountOnSale": 0,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "大理石（抽拉丝带）*2号7X9X3cm",
+              "skuImageUrl": "img/ibank/O1CN017Rg9Hs1qOBKEUPv8a_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "大理石（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "2号7X9X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.5,
+          "price": 1.5,
+          "skuCode": "5263059088406",
+          "skuId": 5263059088406,
+          "specId": "551afed8b6075b9502b4ba82eed4253b"
+        },
+        {
+          "amountOnSale": 0,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "大理石（抽拉丝带）*3号9X9X3cm",
+              "skuImageUrl": "img/ibank/O1CN017Rg9Hs1qOBKEUPv8a_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "大理石（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "3号9X9X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.6,
+          "price": 1.6,
+          "skuCode": "5263059088407",
+          "skuId": 5263059088407,
+          "specId": "e2d240519d5decdb1081dfb2b117c45c"
+        },
+        {
+          "amountOnSale": 0,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "大理石（抽拉丝带）*4号10X10X3.5cm",
+              "skuImageUrl": "img/ibank/O1CN017Rg9Hs1qOBKEUPv8a_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "大理石（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "4号10X10X3.5cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088408",
+          "skuId": 5263059088408,
+          "specId": "a1762c4a96c05f48892bafa015a69bb2"
+        },
+        {
+          "amountOnSale": 999293,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "大理石（抽拉丝带）*5号22X4.5X3cm",
+              "skuImageUrl": "img/ibank/O1CN017Rg9Hs1qOBKEUPv8a_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "大理石（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "5号22X4.5X3cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.9,
+          "price": 1.9,
+          "skuCode": "5263059088409",
+          "skuId": 5263059088409,
+          "specId": "e8ca9e0d6347330b7d2fa5b76f221472"
+        },
+        {
+          "amountOnSale": 0,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "大理石（抽拉丝带）*6号6X6X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN017Rg9Hs1qOBKEUPv8a_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "大理石（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "6号6X6X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.6,
+          "price": 1.6,
+          "skuCode": "5263059088410",
+          "skuId": 5263059088410,
+          "specId": "7609cedb5fdbb22df54d5da31655d01f"
+        },
+        {
+          "amountOnSale": 0,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "大理石（抽拉丝带）*7号7X9X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN017Rg9Hs1qOBKEUPv8a_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "大理石（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "7号7X9X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.8,
+          "price": 1.8,
+          "skuCode": "5263059088411",
+          "skuId": 5263059088411,
+          "specId": "5ed7d8671a43b4fb5bc9ce0b7bd57573"
+        },
+        {
+          "amountOnSale": 0,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "大理石（抽拉丝带）*8号8X8X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN017Rg9Hs1qOBKEUPv8a_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "大理石（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "8号8X8X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.8,
+          "price": 1.8,
+          "skuCode": "5263059088412",
+          "skuId": 5263059088412,
+          "specId": "90cb2fad1263eb8785df4b702bdcbbc2"
+        },
+        {
+          "amountOnSale": 0,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "大理石（抽拉丝带）*9号9X9X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN017Rg9Hs1qOBKEUPv8a_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "大理石（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "9号9X9X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.85,
+          "price": 1.85,
+          "skuCode": "5263059088413",
+          "skuId": 5263059088413,
+          "specId": "4160964cf62537ba177cd436654445d4"
+        },
+        {
+          "amountOnSale": 0,
+          "attributes": [
+            {
+              "attributeDisplayName": "规格型号",
+              "attributeID": 1236,
+              "attributeValue": "大理石（抽拉丝带）*10号10X10X1.7cm",
+              "skuImageUrl": "img/ibank/O1CN017Rg9Hs1qOBKEUPv8a_!!4073245485-0-cib.jpg"
+            },
+            {
+              "attributeDisplayName": "颜色",
+              "attributeID": 3216,
+              "attributeValue": "大理石（抽拉丝带）"
+            },
+            {
+              "attributeDisplayName": "规格",
+              "attributeID": 1234,
+              "attributeValue": "10号10X10X1.7cm"
+            }
+          ],
+          "cargoNumber": "",
+          "consignPrice": 1.95,
+          "price": 1.95,
+          "skuCode": "5263059088414",
+          "skuId": 5263059088414,
+          "specId": "8704afa4f622c9647df105924b521bad"
+        }
+      ],
+      "status": "published",
+      "subject": "抽屉盒珠宝首饰盒饰品包装盒子戒指耳环吊坠项链手镯收纳纸盒",
+      "supplierLoginId": "义乌持慧工艺品",
+      "supplierUserId": "4073245485"
+    },
+    "success": true
+  }
+  

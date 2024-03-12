@@ -1,0 +1,17 @@
+.app {
+  min-height: 100vh;
+  background: #f7f7f7;
+  padding-bottom: 10px
+}
+.sku-creator-wrap {
+  background: #ffffff;
+  margin: 0px 100px;
+  margin-bottom: 0;
+  padding: 30px 30px;
+}
+.sku-select-wrap {
+  width: 500px;
+  background: #fff;
+  padding: 50px 0;
+  margin: 30px auto;
+}

@@ -3,6 +3,7 @@ import { Button } from "antd";
 import "./App.css";
 import SkuCreator from "./component/SkuCreator";
 import SkuSelect from "./component/SkuSelect";
+import SkuSelectClass from "./component/SkuSelectClass";
 
 let tempSKus: any = [];
 const mockItemData = {
@@ -76,22 +77,22 @@ const App = () => {
       price: "1",
       hold: 0,
     },
-    {
-      key: 4,
-      skuId: "b05e47e8-6ef7-464f-9697-10c48a80ad85",
-      properties: [
-        {
-          name: "颜色",
-          value: "yeellow",
-        },
-        {
-          name: "大小",
-          value: "m",
-        },
-      ],
-      price: "1",
-      hold: 1,
-    },
+    // {
+    //   key: 4,
+    //   skuId: "b05e47e8-6ef7-464f-9697-10c48a80ad85",
+    //   properties: [
+    //     {
+    //       name: "颜色",
+    //       value: "yeellow",
+    //     },
+    //     {
+    //       name: "大小",
+    //       value: "m",
+    //     },
+    //   ],
+    //   price: "1",
+    //   hold: 1,
+    // },
     {
       key: 5,
       skuId: "3bbe24f9-d7e7-4eee-95c8-86ad790a3487",
@@ -110,15 +111,12 @@ const App = () => {
     },
   ]);
   const confirmSkus = () => {
-    console.log("tempSKus", tempSKus);
     setSkus([...tempSKus]);
   };
-  console.log("skus", skus);
-
   return (
     <div className="app">
       <div className="sku-creator-wrap">
-        {/* <SkuCreator
+        <SkuCreator
           onChange={(skus) => {
             tempSKus = skus;
           }}
@@ -126,11 +124,11 @@ const App = () => {
         />
         <Button type="primary" onClick={confirmSkus}>
           确认添加
-        </Button> */}
+        </Button>
       </div>
       <div style={{ background: "#f7f7f7" }}>
         <div className="sku-select-wrap">
-          <SkuSelect
+          <SkuSelectClass
             optionsChange={(spec) => {
               console.log("点击的规格属性变化", spec);
             }}

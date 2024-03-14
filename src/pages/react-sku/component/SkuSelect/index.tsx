@@ -1,4 +1,4 @@
-import { message } from "antd";
+import { message, Button } from "antd";
 import _ from "lodash";
 import React, { FC, useState, useEffect } from "react";
 
@@ -9,37 +9,84 @@ export type SpecItem = {
   value: string;
   disable?: boolean;
 };
-type SkuItem = any;
+type SkuItem = {
+  key: number | string;
+  price: number | string;
+  hold: number;
+  skuId: string;
+  properties: { name: string; value: string }[];
+  [key: string]: any;
+};
+type Data = {
+  skus: SkuItem[];
+  [key: string]: any;
+};
 export type Spec = {
-  [sk: string]: SpecItem[];
+  [key: string]: SpecItem[];
 };
 type PostBody = {
   skuId: string;
   itemId: string;
-  num: number;
+  // num: number;
 };
 interface Props {
   /** 商品数据 */
-  data: SkuItem;
+  data: Data;
   /** 点击确定按钮 */
   onPressConfirm?: (p: PostBody) => void;
   /** 所选规格变化触发 */
   optionsChange?: (s: Spec) => void;
-  /** modal关闭时触发 */
-  onClose?: (s: Spec) => void;
 }
 
-let TotalSkuHold = 0; // 总库存
+// let TotalSkuHold = 0; // 总库存
 
 const SkuSelect: FC<Props> = (props) => {
   const { data, optionsChange, onPressConfirm } = props;
-  const [count, setCount] = useState<number>(1);
   const [spec, setSpec] = useState<Spec>({});
+  // 是否可以点击确定按钮
   const [canFlag, setCanFlag] = useState(false);
-  const [prodPrice, setProdPrice] = useState<number>(0);
-  const [skuHold, setSkuHold] = useState(0);
-  const [maxPrice, setMaxPrice] = useState<number>(0);
-
+  // const [skuHold, setSkuHold] = useState(0);
+  useEffect(() => {
+    initSkuSelect();
+  }, [data]);
+  /**
+   * 通过skus初始化 各个规格
+   */
+  const initSkuSelect = () => {
+    console.log("初始化时的data", data);
+    const skus = data?.skus;
+    const _spec = data?.spec;
+    let _tags: Spec = {};
+    // 用于初始化默认选项
+    if (_spec) {
+      _tags = _spec;
+    } else {
+      const _tempTagsStrArray: any = {}; // 临时字符串数组
+      skus?.forEach((s) => {
+        s?.properties?.forEach((p) => {
+          if (!_tags[p.name]) {
+            _tags[p.name] = [];
+            _tempTagsStrArray[p.name] = [];
+          }
+          if (!_tempTagsStrArray[p.name].includes(p.value)) {
+            _tempTagsStrArray[p.name].push(p.value);
+            _tags[p.name].push({
+              value: p.value,
+              disable: false,
+              select: false,
+            });
+          }
+        });
+      });
+    }
+    let _canFlag = !data.canFlag ? false : true;
+    if (skus?.length === 1 && !skus[0].properties?.length && skus[0].hold <= 0) {
+      _canFlag = false;
+    }
+    setCanFlag(_canFlag);
+    // 判断属性是否可以点击
+    setSpecDisable(_tags);
+  };
   /**
    *
    * @param _spec 规格属性
@@ -79,7 +126,6 @@ const SkuSelect: FC<Props> = (props) => {
       return null;
     }
   };
-
   /** 判断是否可以添加进购物车，比如属性是否有选，库存情况等 */
   const judgeCanAdd = (skus: any[] | undefined) => {
     const sks = Object.keys(spec);
@@ -92,15 +138,14 @@ const SkuSelect: FC<Props> = (props) => {
       _cf = false;
     }
     if (_cf) {
-      const hold = getSkuInfoByKey(spec, "hold");
-      if (count > hold) {
-        setCount(hold);
-      }
+      // const hold = getSkuInfoByKey(spec, "hold");
+      // if (count > hold) {
+      //   setCount(hold);
+      // }
     }
     setCanFlag(_cf);
     return _cf;
   };
-
   /** 用于规格都没选中的时候 设置 规格是否可以点击，该路径上如果跟该属性的组合没库存则该属性不能点击 */
   // 可合并在 skuCore中
   const setSpecDisable = (tags: any) => {
@@ -113,7 +158,7 @@ const SkuSelect: FC<Props> = (props) => {
           const queryProperty = sku.properties.find((sp) => `${sp.name}:${sp.value}` === currentSpec);
           return queryProperty && sku.hold;
         });
-        // 如果找到 对应该属性的路径 sku有不为0 的则可选
+        // 如果找到对应该属性的路径，sku有不为0 的则可选
         sv.disable = !querySku;
       });
     });
@@ -169,7 +214,7 @@ const SkuSelect: FC<Props> = (props) => {
   /** 规格选项点击事件 */
   const onPressSpecOption = (k: string, currentSpectValue: any) => {
     let isCancel = false;
-    setCount(1);
+    // setCount(1);
     // 找到在全部属性spec中对应的属性
     const currentSpects = spec[Object.keys(spec).find((sk) => sk === k) || ""] || [];
     // 上一个被选中的的属性
@@ -208,89 +253,17 @@ const SkuSelect: FC<Props> = (props) => {
     } else {
       price = data?.minPrice;
     }
-    const hold = getSkuInfoByKey(spec, "hold") ?? TotalSkuHold;
+    // const hold = getSkuInfoByKey(spec, "hold") ?? TotalSkuHold;
     setSpec({ ...spec });
-    if (price) {
-      setProdPrice(price);
-    }
-    setSkuHold(hold);
+    // if (price) {
+    //   setProdPrice(price);
+    // }
+    // setSkuHold(hold);
     optionsChange && optionsChange(spec);
   };
-
   /**
-   * 通过skus初始化 各个规格
+   * 点击确认按钮
    */
-  const setDrawOptions = () => {
-    const skus = data?.skus;
-    const _spec = data?.spec;
-    const dataExtraHold = data.skuHold;
-    let _tags: Spec = {};
-    let _maxPrice = data?.minPrice ?? 0;
-    // 用于初始化默认选项
-    if (_spec) {
-      _tags = _spec;
-      setSkuHold(dataExtraHold as number);
-    } else {
-      const _tempTagsStrArray: any = {}; // 临时字符串数组
-      let _skuHold = 0; // 用于计算总库存
-      skus?.forEach((s) => {
-        _skuHold += s.hold;
-        s?.properties?.forEach((p) => {
-          if (!_tags[p.name]) {
-            _tags[p.name] = [];
-            _tempTagsStrArray[p.name] = [];
-          }
-
-          if (!_tempTagsStrArray[p.name].includes(p.value)) {
-            _tempTagsStrArray[p.name].push(p.value);
-            _tags[p.name].push({
-              value: p.value,
-              disable: false,
-              select: false,
-            });
-          }
-        });
-        if (s.price > _maxPrice) {
-          _maxPrice = s.price;
-        }
-      });
-      setSkuHold(_skuHold);
-      TotalSkuHold = _skuHold;
-    }
-    let _canFlag = !data.canFlag ? false : true;
-    /**  */
-    if (skus?.length === 1 && !skus[0].properties?.length && skus[0].hold <= 0) {
-      _canFlag = false;
-    }
-    setCanFlag(_canFlag);
-    setProdPrice(data?.minPrice ?? 0);
-    setMaxPrice(_maxPrice);
-    setSpecDisable(_tags);
-  };
-  const openCurDrawer = () => {
-    setDrawOptions();
-    setCount(data?.count || 1);
-  };
-
-  const countChange = (sign: "-" | "+") => {
-    let _count = count;
-    if (sign === "-" && _count > 1) {
-      --_count;
-    } else if (sign === "+") {
-      if (canFlag) {
-        const hold = getSkuInfoByKey(spec, "hold");
-        if (_count < hold) {
-          ++_count;
-        } else {
-          message.warning("数量不能大于库存");
-          _count = hold;
-        }
-      } else {
-        ++_count;
-      }
-    }
-    setCount(_count);
-  };
   const onPressConfirmButton = () => {
     if (!judgeCanAdd(data?.skus)) {
       return;
@@ -299,12 +272,11 @@ const SkuSelect: FC<Props> = (props) => {
     const postData: PostBody = {
       skuId,
       itemId: data?.itemId,
-      num: count,
     };
     onPressConfirm?.(postData);
   };
-  useEffect(openCurDrawer, [data]);
 
+  console.log("spec", spec);
   return (
     <div className="drawer-inner">
       <div className="prod-info">
@@ -315,27 +287,27 @@ const SkuSelect: FC<Props> = (props) => {
           <div className="item-title">{data.title}</div>
           <div>
             <div className="price-wrap">
-              <span>¥{prodPrice}</span>
-              {!canFlag && maxPrice > prodPrice ? <span>~ {maxPrice}</span> : null}
+              <span>¥{22}</span>
             </div>
-            <div className="sku-hold">库存 {skuHold} 件</div>
+            <div className="sku-hold">库存 {2} 件</div>
           </div>
         </div>
       </div>
       <div className="spec-inner">
-        {Object.keys(spec).map((k, index) => {
+        {Object.keys(spec).map((attrName, index) => {
           return (
             <div key={`${index + 1}`} className="items">
-              <div className="title">{k}</div>
+              {/* 属性名称 */}
+              <div className="title">{attrName}</div>
               <div className="tags">
-                {spec[k].map((o, oi) => {
+                {spec[attrName].map((attrObj, index) => {
                   return (
                     <div
-                      key={`${index + oi}`}
-                      onClick={() => !o.disable && onPressSpecOption(k, o)}
-                      className={o.select ? "tag active" : o.disable ? "tag disable" : "tag"}
+                      key={`${index + index}`}
+                      onClick={() => !attrObj.disable && onPressSpecOption(attrName, attrObj)}
+                      className={attrObj.select ? "tag active" : attrObj.disable ? "tag disable" : "tag"}
                     >
-                      {o.value}
+                      {attrObj.value}
                     </div>
                   );
                 })}
@@ -343,24 +315,10 @@ const SkuSelect: FC<Props> = (props) => {
             </div>
           );
         })}
-        <div className="items">
-          <div className="title">
-            数量
-            <div className="count-wrap">
-              <div className="sign" onClick={() => countChange("-")}>
-                -
-              </div>
-              <div className="count-box">{count}</div>
-              <div className="sign" onClick={() => countChange("+")}>
-                +
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="btn-wrap">
-          <div className={canFlag ? "btn" : "btn disable"} onClick={onPressConfirmButton}>
+          <Button disabled={!canFlag} type="primary" onClick={onPressConfirmButton}>
             确认
-          </div>
+          </Button>
         </div>
       </div>
     </div>

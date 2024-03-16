@@ -1,6 +1,6 @@
-import { message, Button } from "antd";
+import { Button } from "antd";
 import _ from "lodash";
-import React, { FC, useState, useEffect } from "react";
+import { FC, useState, useEffect } from "react";
 
 import "./index.scss";
 
@@ -37,9 +37,6 @@ interface Props {
   /** 所选规格变化触发 */
   optionsChange?: (s: Spec) => void;
 }
-
-// let TotalSkuHold = 0; // 总库存
-
 const SkuSelect: FC<Props> = (props) => {
   const { data, optionsChange, onPressConfirm } = props;
   const [spec, setSpec] = useState<Spec>({});
@@ -97,7 +94,6 @@ const SkuSelect: FC<Props> = (props) => {
   const getSkuInfoByKey = (_spec: Spec, sk?: string) => {
     // 已选的规格：[{ name:规格名称, value:已选规格内容 }]
     const selectedSpec: { name: string; value: string }[] = [];
-
     Object.keys(_spec).forEach((k) => {
       const selectedValue = _spec[k].find((sv) => sv.select);
       if (selectedValue) {
@@ -137,17 +133,10 @@ const SkuSelect: FC<Props> = (props) => {
     if (skus?.length === 1 && !skus[0]?.properties?.length && skus[0].hold <= 0) {
       _cf = false;
     }
-    if (_cf) {
-      // const hold = getSkuInfoByKey(spec, "hold");
-      // if (count > hold) {
-      //   setCount(hold);
-      // }
-    }
     setCanFlag(_cf);
     return _cf;
   };
-  /** 用于规格都没选中的时候 设置 规格是否可以点击，该路径上如果跟该属性的组合没库存则该属性不能点击 */
-  // 可合并在 skuCore中
+  /** 用于规格都没选中的时候 设置那些规格是否可以点击，该路径上如果跟该属性的组合没库存则该属性不能点击 */
   const setSpecDisable = (tags: any) => {
     const { skus } = data;
     Object.keys(tags).forEach((sk) => {
@@ -169,14 +158,16 @@ const SkuSelect: FC<Props> = (props) => {
    * @param selectedSpec 已选中的数组
    * @param currentSpecName 当前点击的规格的名称
    */
-  const skuCore = (selectedSpec: string[], currentSpecName?: string) => {
+  const skuCore = (selectedSpec: string[], attrName?: string) => {
     const { skus } = data;
     Object.keys(spec).forEach((sk: string) => {
-      if (sk !== currentSpecName) {
+      if (sk !== attrName) {
+        console.log("sk", sk);
         // 找出该规格中选中的值
         const currentSpecSelectedValue = spec[Object.keys(spec).find((_sk) => sk === _sk) || ""].find(
           (sv) => sv.select
         );
+        console.log("currentSpecSelectedValue", currentSpecSelectedValue);
         spec[sk].forEach((sv: SpecItem) => {
           // 判断当前的规格的值是否是选中的，如果是选中的 就不要判断是否可以点击直接跳过循环
           if (!sv.select) {
@@ -188,6 +179,7 @@ const SkuSelect: FC<Props> = (props) => {
             }
             _ssTemp.push(`${sk}:${sv.value}`);
             const _tmpPath: SkuItem[] = [];
+            console.log("_ssTemp", _ssTemp);
             // 找到包含该路径的全部sku
             skus.forEach((sku: SkuItem) => {
               // 找出skus里面包含目前所选中的规格的路径的数组的数量
@@ -202,6 +194,7 @@ const SkuSelect: FC<Props> = (props) => {
                 _tmpPath.push(sku); // 把包含该路径的sku全部放到一个数组里
               }
             });
+            console.log("_tmpPath", _tmpPath);
             const hasHoldPath = _tmpPath.find((p) => p.hold); // 判断里面是要有个sku不为0 则可点击
             let isNotEmpty = hasHoldPath ? hasHoldPath.hold : 0;
             sv.disable = !isNotEmpty;
@@ -212,29 +205,29 @@ const SkuSelect: FC<Props> = (props) => {
     judgeCanAdd(skus);
   };
   /** 规格选项点击事件 */
-  const onPressSpecOption = (k: string, currentSpectValue: any) => {
+  const onPressSpecOption = (attrName: string, attrObj: any) => {
     let isCancel = false;
     // setCount(1);
     // 找到在全部属性spec中对应的属性
-    const currentSpects = spec[Object.keys(spec).find((sk) => sk === k) || ""] || [];
-    // 上一个被选中的的属性
+    const currentSpects = spec[Object.keys(spec).find((sk) => sk === attrName) || ""] || [];
+    // 判断是否有上一个被选中的的属性
     const prevSelectedSpectValue: any = currentSpects.find((cspec) => cspec.select) || {};
     // 设置前一个被选中的值为未选中
     prevSelectedSpectValue.select = false;
     // 只有当当前点击的属性值不等于上一个点击的属性值时候设置为选中状态
-    if (prevSelectedSpectValue === currentSpectValue) {
+    if (prevSelectedSpectValue === attrObj) {
       isCancel = true;
     } else {
       // 设置当前点击的状态为选中
-      currentSpectValue.select = true;
+      attrObj.select = true;
     }
-
-    // 全部有选中的规格数组 ##可优化
+    // 全部有选中的规格数组
     const selectedSpec = Object.keys(spec)
       .filter((sk: string) => spec[sk].find((sv) => sv.select))
       .reduce((prev: string[], currentSpecKey) => {
         return [...prev, `${currentSpecKey}:${spec[currentSpecKey].find((__v) => __v.select)?.value}`];
       }, []);
+    console.log("selectedSpec", selectedSpec);
     if (isCancel) {
       // 如果是取消且全部没选中
       if (!selectedSpec.length) {
@@ -244,21 +237,10 @@ const SkuSelect: FC<Props> = (props) => {
     }
     // 如果规格中有选中的 则对整个规格就行 库存判断 是否可点
     if (selectedSpec.length) {
-      skuCore(selectedSpec, k);
+      skuCore(selectedSpec, attrName);
     }
-
-    let price = null;
-    if (selectedSpec.length) {
-      price = getSkuInfoByKey(spec, "price");
-    } else {
-      price = data?.minPrice;
-    }
-    // const hold = getSkuInfoByKey(spec, "hold") ?? TotalSkuHold;
     setSpec({ ...spec });
-    // if (price) {
-    //   setProdPrice(price);
-    // }
-    // setSkuHold(hold);
+    // 如果props传了属性变化的函数，就调用
     optionsChange && optionsChange(spec);
   };
   /**
@@ -275,7 +257,6 @@ const SkuSelect: FC<Props> = (props) => {
     };
     onPressConfirm?.(postData);
   };
-
   console.log("spec", spec);
   return (
     <div className="drawer-inner">

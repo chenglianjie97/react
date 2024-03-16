@@ -81,23 +81,26 @@
       flex-wrap: wrap;
       .tag {
         height: 30px;
-        border-radius: 30px;
-        padding: 0px 18px;
-        border: 1px solid #f7f7f7;
-        color: #333333;
-        background-color: #f7f7f7;
+        border-radius: 6px;
+        padding: 0px 12px;
+        border:1px solid #cbcbcb;
+        // border: 1px solid #f7f7f7;
+        // color: #333333;
+        background-color: white;
         font-size: 12px;
         line-height: 30px;
         margin-right: 9px;
         margin-bottom: 9px;
         cursor: pointer;
         &.active {
-          border-color: #fe4346;
-          color: #fe4346;
-          background-color: #fde1df;
+          // border-color: #fe4346;
+          // color: #fe4346;
+          border:2px solid #ff6a00
+          // background-color: #fde1df;
         }
         &.disable {
           color: #ccc;
+          cursor: not-allowed;
         }
       }
     }

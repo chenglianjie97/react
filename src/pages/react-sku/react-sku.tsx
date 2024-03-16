@@ -147,17 +147,6 @@ const App = () => {
   };
   return (
     <div className="app">
-      <div className="sku-creator-wrap">
-        <SkuCreator
-          onChange={(skus) => {
-            tempSKus = skus;
-          }}
-          skus={[]}
-        />
-        <Button type="primary" onClick={confirmSkus}>
-          确认添加
-        </Button>
-      </div>
       <div style={{ background: "#f7f7f7" }}>
         <div className="sku-select-wrap">
           <SkuSelect

@@ -50,7 +50,7 @@ const SkuSelect: FC<Props> = (props) => {
    * 通过skus初始化 各个规格
    */
   const initSkuSelect = () => {
-    console.log("初始化时的data", data);
+    // console.log("初始化时的data", data);
     const skus = data?.skus;
     const _spec = data?.spec;
     let _tags: Spec = {};
@@ -162,12 +162,12 @@ const SkuSelect: FC<Props> = (props) => {
     const { skus } = data;
     Object.keys(spec).forEach((sk: string) => {
       if (sk !== attrName) {
-        console.log("sk", sk);
+        // console.log("sk", sk);
         // 找出该规格中选中的值
         const currentSpecSelectedValue = spec[Object.keys(spec).find((_sk) => sk === _sk) || ""].find(
           (sv) => sv.select
         );
-        console.log("currentSpecSelectedValue", currentSpecSelectedValue);
+        // console.log("currentSpecSelectedValue", currentSpecSelectedValue);
         spec[sk].forEach((sv: SpecItem) => {
           // 判断当前的规格的值是否是选中的，如果是选中的 就不要判断是否可以点击直接跳过循环
           if (!sv.select) {
@@ -179,9 +179,10 @@ const SkuSelect: FC<Props> = (props) => {
             }
             _ssTemp.push(`${sk}:${sv.value}`);
             const _tmpPath: SkuItem[] = [];
-            console.log("_ssTemp", _ssTemp);
+            // console.log("_ssTemp", _ssTemp);
             // 找到包含该路径的全部sku
             skus.forEach((sku: SkuItem) => {
+              // console.log("_ssTemp", _ssTemp);
               // 找出skus里面包含目前所选中的规格的路径的数组的数量
               const querSkus = _ssTemp.filter((_sst: string) => {
                 const querySpec = sku.properties.some((p) => {
@@ -189,12 +190,13 @@ const SkuSelect: FC<Props> = (props) => {
                 });
                 return querySpec;
               });
+              // console.log("querSkus", querSkus);
               const i = querSkus.length;
               if (i === _ssTemp.length) {
                 _tmpPath.push(sku); // 把包含该路径的sku全部放到一个数组里
               }
             });
-            console.log("_tmpPath", _tmpPath);
+            // console.log("_tmpPath", _tmpPath);
             const hasHoldPath = _tmpPath.find((p) => p.hold); // 判断里面是要有个sku不为0 则可点击
             let isNotEmpty = hasHoldPath ? hasHoldPath.hold : 0;
             sv.disable = !isNotEmpty;
@@ -227,7 +229,7 @@ const SkuSelect: FC<Props> = (props) => {
       .reduce((prev: string[], currentSpecKey) => {
         return [...prev, `${currentSpecKey}:${spec[currentSpecKey].find((__v) => __v.select)?.value}`];
       }, []);
-    console.log("selectedSpec", selectedSpec);
+    // console.log("selectedSpec", selectedSpec);
     if (isCancel) {
       // 如果是取消且全部没选中
       if (!selectedSpec.length) {
@@ -251,29 +253,20 @@ const SkuSelect: FC<Props> = (props) => {
       return;
     }
     const skuId = getSkuInfoByKey(spec, "skuId");
+    // console.log('',)
+    const selectSkuObj = data?.skus?.find((item) => {
+      return item.skuId === skuId;
+    });
+    console.log("selectSkuObj", selectSkuObj);
     const postData: PostBody = {
       skuId,
       itemId: data?.itemId,
     };
     onPressConfirm?.(postData);
   };
-  console.log("spec", spec);
+  // console.log("spec", spec);
   return (
     <div className="drawer-inner">
-      <div className="prod-info">
-        <div className="prod-img">
-          <img alt="" src={data.image} />
-        </div>
-        <div className="content">
-          <div className="item-title">{data.title}</div>
-          <div>
-            <div className="price-wrap">
-              <span>¥{22}</span>
-            </div>
-            <div className="sku-hold">库存 {2} 件</div>
-          </div>
-        </div>
-      </div>
       <div className="spec-inner">
         {Object.keys(spec).map((attrName, index) => {
           return (
@@ -298,7 +291,7 @@ const SkuSelect: FC<Props> = (props) => {
         })}
         <div className="btn-wrap">
           <Button disabled={!canFlag} type="primary" onClick={onPressConfirmButton}>
-            确认
+            添加属性
           </Button>
         </div>
       </div>
